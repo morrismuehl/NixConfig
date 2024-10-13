@@ -1,0 +1,1 @@
+{"net":{"http_server_properties":{"servers":[{"anonymization":[],"server":"https://updates.signal.org","supports_spdy":true}],"supports_quic":{"address":"2a02:3035:609:2a6c:def6:f20a:dd27:4422","used_quic":true},"version":5},"network_qualities":{"CAISABiAgICA+P////8B":"3G","CAYSABiAgICA+P////8B":"Offline"}}}

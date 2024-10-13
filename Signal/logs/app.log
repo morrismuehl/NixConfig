@@ -1,0 +1,571 @@
+{"level":30,"time":"2024-08-02T08:38:51.377Z","msg":"Profile Service initialized"}
+{"level":30,"time":"2024-08-02T08:38:51.560Z","msg":"libsignal net environment resolved to [Production]"}
+{"level":30,"time":"2024-08-02T08:38:51.586Z","msg":"preload complete"}
+{"level":30,"time":"2024-08-02T08:38:51.587Z","msg":"@signalapp/libsignal-client Initializing libsignal version:0.51.1 signal_node::logging rust/bridge/node/src/logging.rs:136"}
+{"level":30,"time":"2024-08-02T08:38:51.587Z","msg":"@signalapp/libsignal-client Initializing connection manager for Prod... libsignal_bridge::net rust/bridge/shared/src/net.rs:72"}
+{"level":30,"time":"2024-08-02T08:38:51.635Z","msg":"NotificationService initialized"}
+{"level":30,"time":"2024-08-02T08:38:51.648Z","msg":"initializeMessageCounter: picking stored counter"}
+{"level":30,"time":"2024-08-02T08:38:51.648Z","msg":"Our profile key service: initializing"}
+{"level":30,"time":"2024-08-02T08:38:51.649Z","msg":"background page reloaded"}
+{"level":30,"time":"2024-08-02T08:38:51.649Z","msg":"environment: production"}
+{"level":30,"time":"2024-08-02T08:38:51.654Z","msg":"Checking for the existence of IndexedDB data..."}
+{"level":30,"time":"2024-08-02T08:38:51.670Z","msg":"Storage fetch"}
+{"level":40,"time":"2024-08-02T08:38:51.675Z","msg":"SocketManager authenticate was called without credentials"}
+{"level":30,"time":"2024-08-02T08:38:51.675Z","msg":"Initializing MessageReceiver"}
+{"level":30,"time":"2024-08-02T08:38:51.676Z","msg":"Sender certificate service initialized"}
+{"level":30,"time":"2024-08-02T08:38:51.870Z","msg":"Starting background data migration. Target version: 11"}
+{"level":30,"time":"2024-08-02T08:38:51.886Z","msg":"RetryPlaceholders.constructor: Started with 0 items, lifespan of 3600000"}
+{"level":30,"time":"2024-08-02T08:38:51.887Z","msg":"ConversationController: starting initial fetch"}
+{"level":30,"time":"2024-08-02T08:38:51.887Z","msg":"GET (WS) https://chat.signal.org/v1/config"}
+{"level":30,"time":"2024-08-02T08:38:51.889Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":30,"time":"2024-08-02T08:38:51.891Z","msg":"SocketManager: connecting unauthenticated socket, transport option [original]"}
+{"level":30,"time":"2024-08-02T08:38:51.915Z","msg":"ConversationController: done with initial fetch, got 0 conversations"}
+{"level":30,"time":"2024-08-02T08:38:51.929Z","msg":"SignalProtocolStore: Finished caching identityKeys data"}
+{"level":30,"time":"2024-08-02T08:38:51.929Z","msg":"SignalProtocolStore: Finished caching kyberPreKeys data"}
+{"level":30,"time":"2024-08-02T08:38:51.929Z","msg":"SignalProtocolStore: Finished caching sessions data"}
+{"level":30,"time":"2024-08-02T08:38:51.929Z","msg":"SignalProtocolStore: Finished caching preKeys data"}
+{"level":30,"time":"2024-08-02T08:38:51.929Z","msg":"SignalProtocolStore: Finished caching senderKeys data"}
+{"level":30,"time":"2024-08-02T08:38:51.929Z","msg":"SignalProtocolStore: Finished caching signedPreKeys data"}
+{"level":30,"time":"2024-08-02T08:38:51.952Z","msg":"ConversationController.checkForConflicts: starting..."}
+{"level":30,"time":"2024-08-02T08:38:51.952Z","msg":"checkForConflicts: complete!"}
+{"level":30,"time":"2024-08-02T08:38:51.953Z","msg":"Storage/getItemsState: now preparing copy of items..."}
+{"level":30,"time":"2024-08-02T08:38:51.959Z","msg":"conversation job queue: starting to stream jobs"}
+{"level":30,"time":"2024-08-02T08:38:51.959Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"conversation\""}
+{"level":30,"time":"2024-08-02T08:38:51.959Z","msg":"single proto job queue: starting to stream jobs"}
+{"level":30,"time":"2024-08-02T08:38:51.960Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"single proto\""}
+{"level":30,"time":"2024-08-02T08:38:51.960Z","msg":"read sync job queue: starting to stream jobs"}
+{"level":30,"time":"2024-08-02T08:38:51.960Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"read sync\""}
+{"level":30,"time":"2024-08-02T08:38:51.960Z","msg":"view sync job queue: starting to stream jobs"}
+{"level":30,"time":"2024-08-02T08:38:51.960Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"view sync\""}
+{"level":30,"time":"2024-08-02T08:38:51.960Z","msg":"view once open sync job queue: starting to stream jobs"}
+{"level":30,"time":"2024-08-02T08:38:51.960Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"view once open sync\""}
+{"level":30,"time":"2024-08-02T08:38:51.960Z","msg":"remove storage key job queue: starting to stream jobs"}
+{"level":30,"time":"2024-08-02T08:38:51.960Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"remove storage key\""}
+{"level":30,"time":"2024-08-02T08:38:51.960Z","msg":"report spam job queue: starting to stream jobs"}
+{"level":30,"time":"2024-08-02T08:38:51.960Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"report spam\""}
+{"level":30,"time":"2024-08-02T08:38:51.961Z","msg":"challenge: loading 0 challenges"}
+{"level":30,"time":"2024-08-02T08:38:51.961Z","msg":"Initializing network observer"}
+{"level":30,"time":"2024-08-02T08:38:51.964Z","msg":"BadgeDownloader#checkForFilesToDownload: downloading 0 badge(s)"}
+{"level":30,"time":"2024-08-02T08:38:51.964Z","msg":"Expiration start timestamp cleanup: starting..."}
+{"level":30,"time":"2024-08-02T08:38:51.965Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"conversation\""}
+{"level":30,"time":"2024-08-02T08:38:51.965Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"single proto\""}
+{"level":30,"time":"2024-08-02T08:38:51.965Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"read sync\""}
+{"level":30,"time":"2024-08-02T08:38:51.965Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"view sync\""}
+{"level":30,"time":"2024-08-02T08:38:51.965Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"view once open sync\""}
+{"level":30,"time":"2024-08-02T08:38:51.966Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"remove storage key\""}
+{"level":30,"time":"2024-08-02T08:38:51.966Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"report spam\""}
+{"level":30,"time":"2024-08-02T08:38:51.967Z","msg":"Expiration start timestamp cleanup: Found 0 messages for cleanup"}
+{"level":30,"time":"2024-08-02T08:38:51.967Z","msg":"Expiration start timestamp cleanup: Cancelling update; we don't have our own UUID"}
+{"level":30,"time":"2024-08-02T08:38:51.967Z","msg":"Expiration start timestamp cleanup: complete"}
+{"level":30,"time":"2024-08-02T08:38:51.967Z","msg":"listening for registration events"}
+{"level":30,"time":"2024-08-02T08:38:51.988Z","msg":"Build expires (local): 2024-09-25T13:28:50.000Z"}
+{"level":30,"time":"2024-08-02T08:38:51.998Z","msg":"afterStart(): emitting app-ready-for-processing"}
+{"level":30,"time":"2024-08-02T08:38:51.999Z","msg":"MessageReceiver.reset"}
+{"level":30,"time":"2024-08-02T08:38:51.999Z","msg":"MessageReceiver.addCachedMessagesToQueue"}
+{"level":30,"time":"2024-08-02T08:38:51.999Z","msg":"getAllFromCache"}
+{"level":30,"time":"2024-08-02T08:38:52.139Z","msg":"InstallScreen/getQRCode: race to 10000ms"}
+{"level":30,"time":"2024-08-02T08:38:52.141Z","msg":"getAllFromCache - 0 unprocessed"}
+{"level":30,"time":"2024-08-02T08:38:52.141Z","msg":"getAllFromCache - done retrieving 0 unprocessed"}
+{"level":30,"time":"2024-08-02T08:38:52.141Z","msg":"MessageReceiver.queueAllCached - finished"}
+{"level":30,"time":"2024-08-02T08:38:52.165Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 232ms (attempts v4=1 v6=0)"}
+{"level":30,"time":"2024-08-02T08:38:52.439Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 295ms (attempts v4=1 v6=0)"}
+{"level":30,"time":"2024-08-02T08:38:52.445Z","msg":"WebSocketResource(unauthenticated) connected in 552.8ms"}
+{"level":30,"time":"2024-08-02T08:38:52.446Z","msg":"SocketManager: connected unauthenticated socket (localPort: 39610)"}
+{"level":30,"time":"2024-08-02T08:38:52.447Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":50,"time":"2024-08-02T08:38:52.556Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2024-08-02T08:38:52.556Z","msg":"GET (WS) https://chat.signal.org/v1/config 401 Error"}
+{"level":50,"time":"2024-08-02T08:38:52.558Z","msg":"Top-level unhandled promise rejection: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:90:951)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:90:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:90:696)\n    at async te ([REDACTED]/resources/app.asar/preload.bundle.js:90:6515)\n    at async Object.Le [as getConfig] ([REDACTED]/resources/app.asar/preload.bundle.js:90:7668)\n    at async refreshRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:64:7496)\n    at async Object.initRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:64:6389)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:90:867)\n    at te ([REDACTED]/resources/app.asar/preload.bundle.js:90:6521)\n    at Object.Le [as getConfig] ([REDACTED]/resources/app.asar/preload.bundle.js:90:7674)\n    at refreshRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:64:7504)\n    at invokeFunc ([REDACTED]/resources/app.asar/preload.bundle.js:3:14297)\n    at leadingEdge ([REDACTED]/resources/app.asar/preload.bundle.js:3:14376)\n    at debounced ([REDACTED]/resources/app.asar/preload.bundle.js:3:14958)\n    at Object.initRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:64:6395)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:164:16126\nCaused by: undefined"}
+{"level":30,"time":"2024-08-02T08:38:52.643Z","msg":"WebSocketResource(provisioning) connected in 504.0ms"}
+{"level":30,"time":"2024-08-02T08:38:52.644Z","msg":"provisioning socket open"}
+{"level":30,"time":"2024-08-02T08:38:52.985Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2024-08-02T08:38:52.988Z","msg":"checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2024-08-02T08:38:57.973Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2024-08-02T08:38:57.973Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2024-08-02T08:38:58.974Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is focused; there is no notification data"}
+{"level":30,"time":"2024-08-02T08:39:22.571Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:39:22.644Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:39:52.709Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:39:52.852Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:40:13.132Z","msg":"WebSocketResource(provisioning).close(3000)"}
+{"level":40,"time":"2024-08-02T08:40:13.164Z","msg":"WebSocketResource(provisioning): Socket closed"}
+{"level":30,"time":"2024-08-02T08:40:13.165Z","msg":"provisioning socket closed. Code: 3000 Reason: normal"}
+{"level":30,"time":"2024-08-02T08:40:15.438Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2024-08-02T08:40:15.439Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2024-08-02T08:40:16.178Z","msg":"SignalProtocolStore: Finished caching identityKeys data"}
+{"level":30,"time":"2024-08-02T08:40:16.178Z","msg":"SignalProtocolStore: Finished caching kyberPreKeys data"}
+{"level":30,"time":"2024-08-02T08:40:16.178Z","msg":"SignalProtocolStore: Finished caching sessions data"}
+{"level":30,"time":"2024-08-02T08:40:16.178Z","msg":"SignalProtocolStore: Finished caching preKeys data"}
+{"level":30,"time":"2024-08-02T08:40:16.178Z","msg":"SignalProtocolStore: Finished caching senderKeys data"}
+{"level":30,"time":"2024-08-02T08:40:16.178Z","msg":"SignalProtocolStore: Finished caching signedPreKeys data"}
+{"level":30,"time":"2024-08-02T08:40:16.182Z","msg":"ConversationController: starting initial fetch"}
+{"level":30,"time":"2024-08-02T08:40:16.184Z","msg":"ConversationController: done with initial fetch, got 0 conversations"}
+{"level":30,"time":"2024-08-02T08:40:16.185Z","msg":"WebAPI: starting registration"}
+{"level":30,"time":"2024-08-02T08:40:16.186Z","msg":"createAccount: Number is +[REDACTED]760, password has length: 22"}
+{"level":30,"time":"2024-08-02T08:40:16.186Z","msg":"createAccount: Erasing configuration"}
+{"level":30,"time":"2024-08-02T08:40:16.194Z","msg":"SignalProtocolStore: Finished caching identityKeys data"}
+{"level":30,"time":"2024-08-02T08:40:16.195Z","msg":"SignalProtocolStore: Finished caching kyberPreKeys data"}
+{"level":30,"time":"2024-08-02T08:40:16.195Z","msg":"SignalProtocolStore: Finished caching sessions data"}
+{"level":30,"time":"2024-08-02T08:40:16.195Z","msg":"SignalProtocolStore: Finished caching preKeys data"}
+{"level":30,"time":"2024-08-02T08:40:16.195Z","msg":"SignalProtocolStore: Finished caching senderKeys data"}
+{"level":30,"time":"2024-08-02T08:40:16.195Z","msg":"SignalProtocolStore: Finished caching signedPreKeys data"}
+{"level":30,"time":"2024-08-02T08:40:16.197Z","msg":"Sender certificate service: Clearing in-progress fetches and deleting cached certificates"}
+{"level":30,"time":"2024-08-02T08:40:16.203Z","msg":"generateLastRestortKyberKey(ACI): Saving new last resort prekey 1"}
+{"level":30,"time":"2024-08-02T08:40:16.207Z","msg":"generateLastRestortKyberKey(PNI): Saving new last resort prekey 2"}
+{"level":30,"time":"2024-08-02T08:40:16.211Z","msg":"AccountManager.generateSignedPreKey(ACI): Saving new signed prekey 1"}
+{"level":30,"time":"2024-08-02T08:40:16.216Z","msg":"AccountManager.generateSignedPreKey(PNI): Saving new signed prekey 2"}
+{"level":30,"time":"2024-08-02T08:40:16.226Z","msg":"PUT (WS) https://chat.signal.org/v1/devices/link"}
+{"level":50,"time":"2024-08-02T08:40:16.411Z","msg":"PUT (WS) https://chat.signal.org/v1/devices/link 409 Error"}
+{"level":30,"time":"2024-08-02T08:40:16.411Z","msg":"WebAPI: finishing registration"}
+{"level":50,"time":"2024-08-02T08:40:16.412Z","msg":"account.registerSecondDevice: got an error HTTPError: promiseAjax: error response; code: 409\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:90:951)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:90:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:90:696)\n    at async te ([REDACTED]/resources/app.asar/preload.bundle.js:90:6515)\n    at async [REDACTED]/resources/app.asar/preload.bundle.js:90:15822\n    at async st ([REDACTED]/resources/app.asar/preload.bundle.js:90:14222)\n    at async _V.createAccount ([REDACTED]/resources/app.asar/preload.bundle.js:91:353186)\n    at async [REDACTED]/resources/app.asar/preload.bundle.js:91:343075\n    at async run ([REDACTED]/resources/app.asar/preload.bundle.js:76:37812)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:90:867)\n    at te ([REDACTED]/resources/app.asar/preload.bundle.js:90:6521)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:90:15828\n    at st ([REDACTED]/resources/app.asar/preload.bundle.js:90:14228)\n    at async _V.createAccount ([REDACTED]/resources/app.asar/preload.bundle.js:91:353186)\n    at async [REDACTED]/resources/app.asar/preload.bundle.js:91:343075\n    at async run ([REDACTED]/resources/app.asar/preload.bundle.js:76:37812)\n    at async [REDACTED]/resources/app.asar/preload.bundle.js:76:37845\n    at async run ([REDACTED]/resources/app.asar/preload.bundle.js:22:30770)\nCaused by: undefined"}
+{"level":30,"time":"2024-08-02T08:40:16.439Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is focused; there is no notification data"}
+{"level":30,"time":"2024-08-02T08:40:46.436Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:41:16.726Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:41:46.925Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:42:17.137Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:42:47.586Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:43:17.951Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:43:48.106Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":40,"time":"2024-08-02T08:43:53.129Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30493)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:164:16293"}
+{"level":30,"time":"2024-08-02T08:43:54.253Z","msg":"SocketManager: shutting down unauthenticated socket after timeout"}
+{"level":30,"time":"2024-08-02T08:43:54.404Z","msg":"WebSocketResource(unauthenticated).shutdown: no active requests, closing"}
+{"level":30,"time":"2024-08-02T08:43:54.404Z","msg":"WebSocketResource(unauthenticated).close(3000)"}
+{"level":30,"time":"2024-08-02T08:43:54.424Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":30,"time":"2024-08-02T08:43:54.562Z","msg":"SocketManager: connecting unauthenticated socket, transport option [original]"}
+{"level":40,"time":"2024-08-02T08:43:54.643Z","msg":"WebSocketResource(unauthenticated): Socket closed"}
+{"level":30,"time":"2024-08-02T08:43:54.659Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2024-08-02T08:43:54.750Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2024-08-02T08:43:54.928Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 260ms (attempts v4=1 v6=0)"}
+{"level":30,"time":"2024-08-02T08:43:55.031Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2024-08-02T08:43:55.042Z","msg":"WebSocketResource(unauthenticated) connected in 469.1ms"}
+{"level":30,"time":"2024-08-02T08:43:55.049Z","msg":"SocketManager: connected unauthenticated socket (localPort: 52936)"}
+{"level":30,"time":"2024-08-02T08:43:55.056Z","msg":"checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2024-08-02T08:44:25.071Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:44:26.026Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2024-08-02T08:44:26.029Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2024-08-02T08:44:28.449Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is not focused; there is no notification data"}
+{"level":30,"time":"2024-08-02T08:44:29.294Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2024-08-02T08:44:29.296Z","msg":"checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2024-08-02T08:44:31.503Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2024-08-02T08:44:31.503Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2024-08-02T08:44:33.032Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is focused; there is no notification data"}
+{"level":30,"time":"2024-08-02T08:44:36.961Z","msg":"shutdown"}
+{"level":30,"time":"2024-08-02T08:44:37.093Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2024-08-02T08:44:46.692Z","msg":"checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2024-08-02T08:44:48.838Z","msg":"background/shutdown"}
+{"level":40,"time":"2024-08-02T08:44:49.391Z","msg":"cancelInflightRequests/shutdown: Cancelling 0 requests"}
+{"level":40,"time":"2024-08-02T08:44:49.392Z","msg":"cancelInflightRequests/shutdown: Done"}
+{"level":30,"time":"2024-08-02T08:44:49.554Z","msg":"background/shutdown: shutting down messageReceiver"}
+{"level":30,"time":"2024-08-02T08:44:49.834Z","msg":"MessageReceiver.stopProcessing"}
+{"level":30,"time":"2024-08-02T08:44:49.964Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2024-08-02T08:44:50.057Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:44:50.193Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:44:50.290Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:44:50.323Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:44:50.323Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:44:50.325Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:44:50.418Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:44:50.418Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:44:50.419Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:44:50.419Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:44:50.419Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:44:50.453Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:44:50.453Z","msg":"Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:44:50.453Z","msg":"Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:44:50.454Z","msg":"background/shutdown: flushing conversations"}
+{"level":30,"time":"2024-08-02T08:44:50.785Z","msg":"Sleeper: shutting down, settling 0 in-progress sleep calls"}
+{"level":30,"time":"2024-08-02T08:44:50.817Z","msg":"Sleeper: sleep tasks settled"}
+{"level":30,"time":"2024-08-02T08:44:50.818Z","msg":"background/shutdown: shutting down queues"}
+{"level":30,"time":"2024-08-02T08:44:50.823Z","msg":"StartupQueue: Waiting for 0 tasks to drain"}
+{"level":30,"time":"2024-08-02T08:44:50.960Z","msg":"conversation job queue: shutdown: stop accepting new work and drain 0 promise queues"}
+{"level":30,"time":"2024-08-02T08:44:50.962Z","msg":"single proto job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2024-08-02T08:44:50.963Z","msg":"read sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2024-08-02T08:44:50.965Z","msg":"view sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2024-08-02T08:44:50.966Z","msg":"view once open sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2024-08-02T08:44:51.099Z","msg":"remove storage key job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2024-08-02T08:44:51.100Z","msg":"report spam job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2024-08-02T08:44:51.100Z","msg":"conversation job queue: shutdown: complete"}
+{"level":30,"time":"2024-08-02T08:44:51.100Z","msg":"single proto job queue: shutdown: complete"}
+{"level":30,"time":"2024-08-02T08:44:51.100Z","msg":"read sync job queue: shutdown: complete"}
+{"level":30,"time":"2024-08-02T08:44:51.100Z","msg":"view sync job queue: shutdown: complete"}
+{"level":30,"time":"2024-08-02T08:44:51.100Z","msg":"view once open sync job queue: shutdown: complete"}
+{"level":30,"time":"2024-08-02T08:44:51.100Z","msg":"remove storage key job queue: shutdown: complete"}
+{"level":30,"time":"2024-08-02T08:44:51.100Z","msg":"report spam job queue: shutdown: complete"}
+{"level":30,"time":"2024-08-02T08:44:51.100Z","msg":"background/shutdown: shutting down conversation queues"}
+{"level":30,"time":"2024-08-02T08:44:51.100Z","msg":"background/shutdown: all queues shutdown"}
+{"level":30,"time":"2024-08-02T08:44:51.100Z","msg":"background/shutdown: waiting for all batchers"}
+{"level":30,"time":"2024-08-02T08:44:51.100Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2024-08-02T08:44:51.100Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:44:51.100Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:44:51.100Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:44:51.100Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:44:51.100Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:44:51.101Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:44:51.101Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:44:51.101Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:44:51.101Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:44:51.101Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:44:51.101Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:44:51.101Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:44:51.101Z","msg":"Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:44:51.101Z","msg":"Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:44:51.101Z","msg":"waitBatcher#waitForAllWaitBatchers"}
+{"level":30,"time":"2024-08-02T08:44:51.102Z","msg":"background/shutdown: waiting for all attachment downloads to finish"}
+{"level":30,"time":"2024-08-02T08:44:51.233Z","msg":"AttachmentDownloadManager/stopping"}
+{"level":30,"time":"2024-08-02T08:44:51.298Z","msg":"AttachmentBackupManager/stopping"}
+{"level":30,"time":"2024-08-02T08:44:51.298Z","msg":"background/shutdown: closing the database"}
+{"level":30,"time":"2024-08-02T08:44:51.397Z","msg":"Client.shutdown"}
+{"level":30,"time":"2024-08-02T08:44:51.496Z","msg":"data.shutdown: shutdown requested. 0 jobs outstanding"}
+{"level":30,"time":"2024-08-02T08:44:53.578Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2024-08-02T08:44:55.213Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":50,"time":"2024-08-02T08:45:06.507Z","msg":"Top-level unhandled promise rejection: Error: Error invoking remote method 'sql-channel': Error: Error: getReadonlyInstance: globalReadonlyInstance not set!\n    at getReadonlyInstance ([REDACTED]/resources/app.asar/ts/sql/Server.js:574:11)\n    at Object.getSoonestMessageExpiry ([REDACTED]/resources/app.asar/ts/sql/Server.js:3404:14)\n    at MessagePort.<anonymous> ([REDACTED]/resources/app.asar/ts/sql/mainWorker.js:108:35)\n    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:826:20)\n    at exports.emitMessage (node:internal/per_context/messageport:23:28)\n    at IpcRenderer.invoke (node:electron/js2c/renderer_init:2:6995)\n    at async [REDACTED]/resources/app.asar/preload.bundle.js:88:33209\n    at async run ([REDACTED]/resources/app.asar/preload.bundle.js:76:37812)\n    at async [REDACTED]/resources/app.asar/preload.bundle.js:76:37845\n    at async Hue.checkExpiringMessages ([REDACTED]/resources/app.asar/preload.bundle.js:88:3449)"}
+{"level":50,"time":"2024-08-02T08:45:06.620Z","msg":"Top-level unhandled promise rejection: Error: Error invoking remote method 'sql-channel': Error: Error: getReadonlyInstance: globalReadonlyInstance not set!\n    at getReadonlyInstance ([REDACTED]/resources/app.asar/ts/sql/Server.js:574:11)\n    at Object.getNextTapToViewMessageTimestampToAgeOut ([REDACTED]/resources/app.asar/ts/sql/Server.js:3418:14)\n    at MessagePort.<anonymous> ([REDACTED]/resources/app.asar/ts/sql/mainWorker.js:108:35)\n    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:826:20)\n    at exports.emitMessage (node:internal/per_context/messageport:23:28)\n    at IpcRenderer.invoke (node:electron/js2c/renderer_init:2:6995)\n    at async [REDACTED]/resources/app.asar/preload.bundle.js:88:33209\n    at async run ([REDACTED]/resources/app.asar/preload.bundle.js:76:37812)\n    at async [REDACTED]/resources/app.asar/preload.bundle.js:76:37845\n    at async Kue.checkTapToViewMessages ([REDACTED]/resources/app.asar/preload.bundle.js:88:4842)"}
+{"level":30,"time":"2024-08-02T08:45:08.698Z","msg":"NotificationService: clearing notification and updating"}
+{"level":30,"time":"2024-08-02T08:45:08.932Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is not focused; there is no notification data"}
+{"level":30,"time":"2024-08-02T08:48:11.586Z","msg":"Profile Service initialized"}
+{"level":30,"time":"2024-08-02T08:48:11.771Z","msg":"libsignal net environment resolved to [Production]"}
+{"level":30,"time":"2024-08-02T08:48:11.795Z","msg":"preload complete"}
+{"level":30,"time":"2024-08-02T08:48:11.796Z","msg":"@signalapp/libsignal-client Initializing libsignal version:0.51.1 signal_node::logging rust/bridge/node/src/logging.rs:136"}
+{"level":30,"time":"2024-08-02T08:48:11.796Z","msg":"@signalapp/libsignal-client Initializing connection manager for Prod... libsignal_bridge::net rust/bridge/shared/src/net.rs:72"}
+{"level":30,"time":"2024-08-02T08:48:11.843Z","msg":"NotificationService initialized"}
+{"level":30,"time":"2024-08-02T08:48:11.859Z","msg":"initializeMessageCounter: picking stored counter"}
+{"level":30,"time":"2024-08-02T08:48:11.859Z","msg":"Our profile key service: initializing"}
+{"level":30,"time":"2024-08-02T08:48:11.860Z","msg":"background page reloaded"}
+{"level":30,"time":"2024-08-02T08:48:11.860Z","msg":"environment: production"}
+{"level":30,"time":"2024-08-02T08:48:11.862Z","msg":"Checking for the existence of IndexedDB data..."}
+{"level":30,"time":"2024-08-02T08:48:11.885Z","msg":"Storage fetch"}
+{"level":40,"time":"2024-08-02T08:48:11.987Z","msg":"SocketManager authenticate was called without credentials"}
+{"level":30,"time":"2024-08-02T08:48:11.988Z","msg":"Initializing MessageReceiver"}
+{"level":30,"time":"2024-08-02T08:48:11.989Z","msg":"Sender certificate service initialized"}
+{"level":30,"time":"2024-08-02T08:48:12.113Z","msg":"Starting background data migration. Target version: 11"}
+{"level":30,"time":"2024-08-02T08:48:12.122Z","msg":"RetryPlaceholders.constructor: Started with 0 items, lifespan of 3600000"}
+{"level":30,"time":"2024-08-02T08:48:12.123Z","msg":"ConversationController: starting initial fetch"}
+{"level":30,"time":"2024-08-02T08:48:12.123Z","msg":"GET (WS) https://chat.signal.org/v1/config"}
+{"level":30,"time":"2024-08-02T08:48:12.123Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":30,"time":"2024-08-02T08:48:12.125Z","msg":"SocketManager: connecting unauthenticated socket, transport option [original]"}
+{"level":30,"time":"2024-08-02T08:48:12.134Z","msg":"ConversationController: done with initial fetch, got 0 conversations"}
+{"level":30,"time":"2024-08-02T08:48:12.140Z","msg":"SignalProtocolStore: Finished caching identityKeys data"}
+{"level":30,"time":"2024-08-02T08:48:12.141Z","msg":"SignalProtocolStore: Finished caching kyberPreKeys data"}
+{"level":30,"time":"2024-08-02T08:48:12.141Z","msg":"SignalProtocolStore: Finished caching sessions data"}
+{"level":30,"time":"2024-08-02T08:48:12.141Z","msg":"SignalProtocolStore: Finished caching preKeys data"}
+{"level":30,"time":"2024-08-02T08:48:12.141Z","msg":"SignalProtocolStore: Finished caching senderKeys data"}
+{"level":30,"time":"2024-08-02T08:48:12.141Z","msg":"SignalProtocolStore: Finished caching signedPreKeys data"}
+{"level":30,"time":"2024-08-02T08:48:12.160Z","msg":"ConversationController.checkForConflicts: starting..."}
+{"level":30,"time":"2024-08-02T08:48:12.161Z","msg":"checkForConflicts: complete!"}
+{"level":30,"time":"2024-08-02T08:48:12.161Z","msg":"Storage/getItemsState: now preparing copy of items..."}
+{"level":30,"time":"2024-08-02T08:48:12.166Z","msg":"conversation job queue: starting to stream jobs"}
+{"level":30,"time":"2024-08-02T08:48:12.166Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"conversation\""}
+{"level":30,"time":"2024-08-02T08:48:12.166Z","msg":"single proto job queue: starting to stream jobs"}
+{"level":30,"time":"2024-08-02T08:48:12.166Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"single proto\""}
+{"level":30,"time":"2024-08-02T08:48:12.166Z","msg":"read sync job queue: starting to stream jobs"}
+{"level":30,"time":"2024-08-02T08:48:12.166Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"read sync\""}
+{"level":30,"time":"2024-08-02T08:48:12.167Z","msg":"view sync job queue: starting to stream jobs"}
+{"level":30,"time":"2024-08-02T08:48:12.167Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"view sync\""}
+{"level":30,"time":"2024-08-02T08:48:12.167Z","msg":"view once open sync job queue: starting to stream jobs"}
+{"level":30,"time":"2024-08-02T08:48:12.167Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"view once open sync\""}
+{"level":30,"time":"2024-08-02T08:48:12.167Z","msg":"remove storage key job queue: starting to stream jobs"}
+{"level":30,"time":"2024-08-02T08:48:12.167Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"remove storage key\""}
+{"level":30,"time":"2024-08-02T08:48:12.167Z","msg":"report spam job queue: starting to stream jobs"}
+{"level":30,"time":"2024-08-02T08:48:12.167Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"report spam\""}
+{"level":30,"time":"2024-08-02T08:48:12.167Z","msg":"challenge: loading 0 challenges"}
+{"level":30,"time":"2024-08-02T08:48:12.167Z","msg":"Initializing network observer"}
+{"level":30,"time":"2024-08-02T08:48:12.169Z","msg":"BadgeDownloader#checkForFilesToDownload: downloading 0 badge(s)"}
+{"level":30,"time":"2024-08-02T08:48:12.169Z","msg":"Expiration start timestamp cleanup: starting..."}
+{"level":30,"time":"2024-08-02T08:48:12.170Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"conversation\""}
+{"level":30,"time":"2024-08-02T08:48:12.170Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"single proto\""}
+{"level":30,"time":"2024-08-02T08:48:12.170Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"read sync\""}
+{"level":30,"time":"2024-08-02T08:48:12.170Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"view sync\""}
+{"level":30,"time":"2024-08-02T08:48:12.170Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"view once open sync\""}
+{"level":30,"time":"2024-08-02T08:48:12.170Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"remove storage key\""}
+{"level":30,"time":"2024-08-02T08:48:12.170Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"report spam\""}
+{"level":30,"time":"2024-08-02T08:48:12.171Z","msg":"Expiration start timestamp cleanup: Found 0 messages for cleanup"}
+{"level":30,"time":"2024-08-02T08:48:12.172Z","msg":"Expiration start timestamp cleanup: Cancelling update; we don't have our own UUID"}
+{"level":30,"time":"2024-08-02T08:48:12.172Z","msg":"Expiration start timestamp cleanup: complete"}
+{"level":30,"time":"2024-08-02T08:48:12.172Z","msg":"listening for registration events"}
+{"level":30,"time":"2024-08-02T08:48:12.186Z","msg":"Build expires (local): 2024-09-25T13:28:50.000Z"}
+{"level":30,"time":"2024-08-02T08:48:12.191Z","msg":"afterStart(): emitting app-ready-for-processing"}
+{"level":30,"time":"2024-08-02T08:48:12.192Z","msg":"MessageReceiver.reset"}
+{"level":30,"time":"2024-08-02T08:48:12.192Z","msg":"MessageReceiver.addCachedMessagesToQueue"}
+{"level":30,"time":"2024-08-02T08:48:12.192Z","msg":"getAllFromCache"}
+{"level":30,"time":"2024-08-02T08:48:12.282Z","msg":"InstallScreen/getQRCode: race to 10000ms"}
+{"level":30,"time":"2024-08-02T08:48:12.283Z","msg":"getAllFromCache - 0 unprocessed"}
+{"level":30,"time":"2024-08-02T08:48:12.283Z","msg":"getAllFromCache - done retrieving 0 unprocessed"}
+{"level":30,"time":"2024-08-02T08:48:12.283Z","msg":"MessageReceiver.queueAllCached - finished"}
+{"level":30,"time":"2024-08-02T08:48:12.451Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 307ms (attempts v4=1 v6=0)"}
+{"level":30,"time":"2024-08-02T08:48:12.680Z","msg":"WebSocketResource(unauthenticated) connected in 555.0ms"}
+{"level":30,"time":"2024-08-02T08:48:12.682Z","msg":"SocketManager: connected unauthenticated socket (localPort: 51908)"}
+{"level":30,"time":"2024-08-02T08:48:12.682Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":30,"time":"2024-08-02T08:48:12.685Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 401ms (attempts v4=1 v6=0)"}
+{"level":50,"time":"2024-08-02T08:48:12.882Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2024-08-02T08:48:12.883Z","msg":"GET (WS) https://chat.signal.org/v1/config 401 Error"}
+{"level":30,"time":"2024-08-02T08:48:12.884Z","msg":"WebSocketResource(provisioning) connected in 601.7ms"}
+{"level":30,"time":"2024-08-02T08:48:12.884Z","msg":"provisioning socket open"}
+{"level":50,"time":"2024-08-02T08:48:12.906Z","msg":"Top-level unhandled promise rejection: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:90:951)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:90:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:90:696)\n    at async te ([REDACTED]/resources/app.asar/preload.bundle.js:90:6515)\n    at async Object.Le [as getConfig] ([REDACTED]/resources/app.asar/preload.bundle.js:90:7668)\n    at async refreshRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:64:7496)\n    at async Object.initRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:64:6389)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:90:867)\n    at te ([REDACTED]/resources/app.asar/preload.bundle.js:90:6521)\n    at Object.Le [as getConfig] ([REDACTED]/resources/app.asar/preload.bundle.js:90:7674)\n    at refreshRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:64:7504)\n    at invokeFunc ([REDACTED]/resources/app.asar/preload.bundle.js:3:14297)\n    at leadingEdge ([REDACTED]/resources/app.asar/preload.bundle.js:3:14376)\n    at debounced ([REDACTED]/resources/app.asar/preload.bundle.js:3:14958)\n    at Object.initRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:64:6395)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:164:16126\nCaused by: undefined"}
+{"level":30,"time":"2024-08-02T08:48:13.184Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2024-08-02T08:48:13.186Z","msg":"checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2024-08-02T08:48:42.904Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:48:42.905Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:49:13.107Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:49:13.108Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:49:43.311Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:49:43.312Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:50:13.531Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:50:13.531Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:50:43.675Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:50:43.716Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:51:12.093Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2024-08-02T08:51:12.093Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2024-08-02T08:51:13.094Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is not focused; there is no notification data"}
+{"level":30,"time":"2024-08-02T08:51:13.850Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:51:13.851Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:51:44.051Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:51:44.052Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:52:14.245Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:52:14.245Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2024-08-02T08:52:27.792Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2024-08-02T08:52:27.792Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2024-08-02T08:52:28.230Z","msg":"background/shutdown"}
+{"level":40,"time":"2024-08-02T08:52:28.231Z","msg":"cancelInflightRequests/shutdown: Cancelling 0 requests"}
+{"level":40,"time":"2024-08-02T08:52:28.231Z","msg":"cancelInflightRequests/shutdown: Done"}
+{"level":30,"time":"2024-08-02T08:52:28.231Z","msg":"background/shutdown: shutting down messageReceiver"}
+{"level":30,"time":"2024-08-02T08:52:28.231Z","msg":"MessageReceiver.stopProcessing"}
+{"level":30,"time":"2024-08-02T08:52:28.231Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2024-08-02T08:52:28.231Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:52:28.231Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:52:28.231Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:52:28.232Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:52:28.232Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:52:28.232Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:52:28.232Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:52:28.232Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:52:28.232Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:52:28.232Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:52:28.232Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:52:28.232Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:52:28.232Z","msg":"Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:52:28.232Z","msg":"Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:52:28.232Z","msg":"background/shutdown: flushing conversations"}
+{"level":30,"time":"2024-08-02T08:52:28.233Z","msg":"Sleeper: shutting down, settling 0 in-progress sleep calls"}
+{"level":30,"time":"2024-08-02T08:52:28.233Z","msg":"Sleeper: sleep tasks settled"}
+{"level":30,"time":"2024-08-02T08:52:28.233Z","msg":"background/shutdown: shutting down queues"}
+{"level":30,"time":"2024-08-02T08:52:28.233Z","msg":"StartupQueue: Waiting for 0 tasks to drain"}
+{"level":30,"time":"2024-08-02T08:52:28.233Z","msg":"conversation job queue: shutdown: stop accepting new work and drain 0 promise queues"}
+{"level":30,"time":"2024-08-02T08:52:28.234Z","msg":"single proto job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2024-08-02T08:52:28.234Z","msg":"read sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2024-08-02T08:52:28.234Z","msg":"view sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2024-08-02T08:52:28.234Z","msg":"view once open sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2024-08-02T08:52:28.234Z","msg":"remove storage key job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2024-08-02T08:52:28.234Z","msg":"report spam job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2024-08-02T08:52:28.234Z","msg":"conversation job queue: shutdown: complete"}
+{"level":30,"time":"2024-08-02T08:52:28.234Z","msg":"single proto job queue: shutdown: complete"}
+{"level":30,"time":"2024-08-02T08:52:28.234Z","msg":"read sync job queue: shutdown: complete"}
+{"level":30,"time":"2024-08-02T08:52:28.234Z","msg":"view sync job queue: shutdown: complete"}
+{"level":30,"time":"2024-08-02T08:52:28.235Z","msg":"view once open sync job queue: shutdown: complete"}
+{"level":30,"time":"2024-08-02T08:52:28.235Z","msg":"remove storage key job queue: shutdown: complete"}
+{"level":30,"time":"2024-08-02T08:52:28.235Z","msg":"report spam job queue: shutdown: complete"}
+{"level":30,"time":"2024-08-02T08:52:28.235Z","msg":"background/shutdown: shutting down conversation queues"}
+{"level":30,"time":"2024-08-02T08:52:28.235Z","msg":"conversation [REDACTED]111 ([REDACTED]30e) jobQueue shutdown start"}
+{"level":30,"time":"2024-08-02T08:52:28.235Z","msg":"conversation [REDACTED]111 ([REDACTED]30e) no jobQueue to shutdown"}
+{"level":30,"time":"2024-08-02T08:52:28.235Z","msg":"background/shutdown: all queues shutdown"}
+{"level":30,"time":"2024-08-02T08:52:28.235Z","msg":"background/shutdown: waiting for all batchers"}
+{"level":30,"time":"2024-08-02T08:52:28.235Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2024-08-02T08:52:28.235Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:52:28.235Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:52:28.235Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:52:28.235Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:52:28.236Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:52:28.236Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:52:28.236Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:52:28.236Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:52:28.236Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:52:28.236Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:52:28.236Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:52:28.236Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:52:28.236Z","msg":"Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T08:52:28.236Z","msg":"Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2024-08-02T08:52:28.236Z","msg":"waitBatcher#waitForAllWaitBatchers"}
+{"level":30,"time":"2024-08-02T08:52:28.236Z","msg":"background/shutdown: waiting for all attachment downloads to finish"}
+{"level":30,"time":"2024-08-02T08:52:28.236Z","msg":"AttachmentDownloadManager/stopping"}
+{"level":30,"time":"2024-08-02T08:52:28.236Z","msg":"AttachmentBackupManager/stopping"}
+{"level":30,"time":"2024-08-02T08:52:28.236Z","msg":"background/shutdown: closing the database"}
+{"level":30,"time":"2024-08-02T08:52:28.237Z","msg":"Client.shutdown"}
+{"level":30,"time":"2024-08-02T08:52:28.237Z","msg":"data.shutdown: shutdown requested. 0 jobs outstanding"}
+{"level":30,"time":"2024-08-02T08:52:28.269Z","msg":"NotificationService: clearing notification and updating"}
+{"level":30,"time":"2024-08-02T08:52:28.270Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is not focused; there is no notification data"}
+{"level":30,"time":"2024-08-02T09:07:21.299Z","msg":"Profile Service initialized"}
+{"level":30,"time":"2024-08-02T09:07:21.481Z","msg":"libsignal net environment resolved to [Production]"}
+{"level":30,"time":"2024-08-02T09:07:21.505Z","msg":"preload complete"}
+{"level":30,"time":"2024-08-02T09:07:21.506Z","msg":"@signalapp/libsignal-client Initializing libsignal version:0.51.1 signal_node::logging rust/bridge/node/src/logging.rs:136"}
+{"level":30,"time":"2024-08-02T09:07:21.506Z","msg":"@signalapp/libsignal-client Initializing connection manager for Prod... libsignal_bridge::net rust/bridge/shared/src/net.rs:72"}
+{"level":30,"time":"2024-08-02T09:07:21.552Z","msg":"NotificationService initialized"}
+{"level":30,"time":"2024-08-02T09:07:21.569Z","msg":"initializeMessageCounter: picking stored counter"}
+{"level":30,"time":"2024-08-02T09:07:21.569Z","msg":"Our profile key service: initializing"}
+{"level":30,"time":"2024-08-02T09:07:21.569Z","msg":"background page reloaded"}
+{"level":30,"time":"2024-08-02T09:07:21.570Z","msg":"environment: production"}
+{"level":30,"time":"2024-08-02T09:07:21.575Z","msg":"Storage fetch"}
+{"level":40,"time":"2024-08-02T09:07:21.579Z","msg":"SocketManager authenticate was called without credentials"}
+{"level":30,"time":"2024-08-02T09:07:21.579Z","msg":"Initializing MessageReceiver"}
+{"level":30,"time":"2024-08-02T09:07:21.580Z","msg":"Sender certificate service initialized"}
+{"level":30,"time":"2024-08-02T09:07:21.597Z","msg":"Starting background data migration. Target version: 11"}
+{"level":30,"time":"2024-08-02T09:07:21.608Z","msg":"RetryPlaceholders.constructor: Started with 0 items, lifespan of 3600000"}
+{"level":30,"time":"2024-08-02T09:07:21.608Z","msg":"ConversationController: starting initial fetch"}
+{"level":30,"time":"2024-08-02T09:07:21.609Z","msg":"GET (WS) https://chat.signal.org/v1/config"}
+{"level":30,"time":"2024-08-02T09:07:21.609Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":30,"time":"2024-08-02T09:07:21.611Z","msg":"SocketManager: connecting unauthenticated socket, transport option [original]"}
+{"level":30,"time":"2024-08-02T09:07:21.625Z","msg":"ConversationController: done with initial fetch, got 1 conversations"}
+{"level":30,"time":"2024-08-02T09:07:21.644Z","msg":"SignalProtocolStore: Finished caching identityKeys data"}
+{"level":30,"time":"2024-08-02T09:07:21.644Z","msg":"SignalProtocolStore: Finished caching kyberPreKeys data"}
+{"level":30,"time":"2024-08-02T09:07:21.644Z","msg":"SignalProtocolStore: Finished caching sessions data"}
+{"level":30,"time":"2024-08-02T09:07:21.644Z","msg":"SignalProtocolStore: Finished caching preKeys data"}
+{"level":30,"time":"2024-08-02T09:07:21.644Z","msg":"SignalProtocolStore: Finished caching senderKeys data"}
+{"level":30,"time":"2024-08-02T09:07:21.644Z","msg":"SignalProtocolStore: Finished caching signedPreKeys data"}
+{"level":30,"time":"2024-08-02T09:07:21.646Z","msg":"ConversationController.checkForConflicts: starting..."}
+{"level":30,"time":"2024-08-02T09:07:21.647Z","msg":"checkForConflicts: complete!"}
+{"level":30,"time":"2024-08-02T09:07:21.647Z","msg":"Storage/getItemsState: now preparing copy of items..."}
+{"level":30,"time":"2024-08-02T09:07:21.651Z","msg":"conversation job queue: starting to stream jobs"}
+{"level":30,"time":"2024-08-02T09:07:21.651Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"conversation\""}
+{"level":30,"time":"2024-08-02T09:07:21.651Z","msg":"single proto job queue: starting to stream jobs"}
+{"level":30,"time":"2024-08-02T09:07:21.652Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"single proto\""}
+{"level":30,"time":"2024-08-02T09:07:21.652Z","msg":"read sync job queue: starting to stream jobs"}
+{"level":30,"time":"2024-08-02T09:07:21.652Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"read sync\""}
+{"level":30,"time":"2024-08-02T09:07:21.652Z","msg":"view sync job queue: starting to stream jobs"}
+{"level":30,"time":"2024-08-02T09:07:21.652Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"view sync\""}
+{"level":30,"time":"2024-08-02T09:07:21.652Z","msg":"view once open sync job queue: starting to stream jobs"}
+{"level":30,"time":"2024-08-02T09:07:21.652Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"view once open sync\""}
+{"level":30,"time":"2024-08-02T09:07:21.652Z","msg":"remove storage key job queue: starting to stream jobs"}
+{"level":30,"time":"2024-08-02T09:07:21.652Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"remove storage key\""}
+{"level":30,"time":"2024-08-02T09:07:21.652Z","msg":"report spam job queue: starting to stream jobs"}
+{"level":30,"time":"2024-08-02T09:07:21.652Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"report spam\""}
+{"level":30,"time":"2024-08-02T09:07:21.652Z","msg":"challenge: loading 0 challenges"}
+{"level":30,"time":"2024-08-02T09:07:21.652Z","msg":"Initializing network observer"}
+{"level":30,"time":"2024-08-02T09:07:21.654Z","msg":"BadgeDownloader#checkForFilesToDownload: downloading 0 badge(s)"}
+{"level":30,"time":"2024-08-02T09:07:21.654Z","msg":"Expiration start timestamp cleanup: starting..."}
+{"level":30,"time":"2024-08-02T09:07:21.654Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"conversation\""}
+{"level":30,"time":"2024-08-02T09:07:21.654Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"single proto\""}
+{"level":30,"time":"2024-08-02T09:07:21.654Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"read sync\""}
+{"level":30,"time":"2024-08-02T09:07:21.654Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"view sync\""}
+{"level":30,"time":"2024-08-02T09:07:21.654Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"view once open sync\""}
+{"level":30,"time":"2024-08-02T09:07:21.654Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"remove storage key\""}
+{"level":30,"time":"2024-08-02T09:07:21.654Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"report spam\""}
+{"level":30,"time":"2024-08-02T09:07:21.657Z","msg":"Expiration start timestamp cleanup: Found 0 messages for cleanup"}
+{"level":30,"time":"2024-08-02T09:07:21.657Z","msg":"Expiration start timestamp cleanup: Cancelling update; we don't have our own UUID"}
+{"level":30,"time":"2024-08-02T09:07:21.657Z","msg":"Expiration start timestamp cleanup: complete"}
+{"level":30,"time":"2024-08-02T09:07:21.657Z","msg":"listening for registration events"}
+{"level":30,"time":"2024-08-02T09:07:21.671Z","msg":"Build expires (local): 2024-09-25T13:28:50.000Z"}
+{"level":30,"time":"2024-08-02T09:07:21.678Z","msg":"afterStart(): emitting app-ready-for-processing"}
+{"level":30,"time":"2024-08-02T09:07:21.678Z","msg":"MessageReceiver.reset"}
+{"level":30,"time":"2024-08-02T09:07:21.678Z","msg":"MessageReceiver.addCachedMessagesToQueue"}
+{"level":30,"time":"2024-08-02T09:07:21.678Z","msg":"getAllFromCache"}
+{"level":30,"time":"2024-08-02T09:07:21.791Z","msg":"InstallScreen/getQRCode: race to 10000ms"}
+{"level":30,"time":"2024-08-02T09:07:21.792Z","msg":"getAllFromCache - 0 unprocessed"}
+{"level":30,"time":"2024-08-02T09:07:21.792Z","msg":"getAllFromCache - done retrieving 0 unprocessed"}
+{"level":30,"time":"2024-08-02T09:07:21.792Z","msg":"MessageReceiver.queueAllCached - finished"}
+{"level":30,"time":"2024-08-02T09:07:22.033Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 404ms (attempts v4=1 v6=0)"}
+{"level":30,"time":"2024-08-02T09:07:22.037Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 244ms (attempts v4=1 v6=0)"}
+{"level":30,"time":"2024-08-02T09:07:22.241Z","msg":"WebSocketResource(unauthenticated) connected in 629.5ms"}
+{"level":30,"time":"2024-08-02T09:07:22.242Z","msg":"SocketManager: connected unauthenticated socket (localPort: 60822)"}
+{"level":30,"time":"2024-08-02T09:07:22.242Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":30,"time":"2024-08-02T09:07:22.247Z","msg":"WebSocketResource(provisioning) connected in 456.5ms"}
+{"level":30,"time":"2024-08-02T09:07:22.248Z","msg":"provisioning socket open"}
+{"level":50,"time":"2024-08-02T09:07:22.402Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2024-08-02T09:07:22.403Z","msg":"GET (WS) https://chat.signal.org/v1/config 401 Error"}
+{"level":50,"time":"2024-08-02T09:07:22.404Z","msg":"Top-level unhandled promise rejection: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:90:951)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:90:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:90:696)\n    at async te ([REDACTED]/resources/app.asar/preload.bundle.js:90:6515)\n    at async Object.Le [as getConfig] ([REDACTED]/resources/app.asar/preload.bundle.js:90:7668)\n    at async refreshRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:64:7496)\n    at async Object.initRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:64:6389)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:90:867)\n    at te ([REDACTED]/resources/app.asar/preload.bundle.js:90:6521)\n    at Object.Le [as getConfig] ([REDACTED]/resources/app.asar/preload.bundle.js:90:7674)\n    at refreshRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:64:7504)\n    at invokeFunc ([REDACTED]/resources/app.asar/preload.bundle.js:3:14297)\n    at leadingEdge ([REDACTED]/resources/app.asar/preload.bundle.js:3:14376)\n    at debounced ([REDACTED]/resources/app.asar/preload.bundle.js:3:14958)\n    at Object.initRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:64:6395)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:164:16126\nCaused by: undefined"}
+{"level":30,"time":"2024-08-02T09:07:22.669Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2024-08-02T09:07:22.671Z","msg":"checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2024-08-02T09:07:39.682Z","msg":"WebSocketResource(provisioning).close(3000)"}
+{"level":40,"time":"2024-08-02T09:07:39.939Z","msg":"WebSocketResource(provisioning): Socket closed"}
+{"level":30,"time":"2024-08-02T09:07:39.939Z","msg":"provisioning socket closed. Code: 3000 Reason: normal"}
+{"level":30,"time":"2024-08-02T09:07:41.972Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2024-08-02T09:07:41.972Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2024-08-02T09:07:42.408Z","msg":"SignalProtocolStore: Finished caching identityKeys data"}
+{"level":30,"time":"2024-08-02T09:07:42.408Z","msg":"SignalProtocolStore: Finished caching kyberPreKeys data"}
+{"level":30,"time":"2024-08-02T09:07:42.408Z","msg":"SignalProtocolStore: Finished caching sessions data"}
+{"level":30,"time":"2024-08-02T09:07:42.408Z","msg":"SignalProtocolStore: Finished caching preKeys data"}
+{"level":30,"time":"2024-08-02T09:07:42.408Z","msg":"SignalProtocolStore: Finished caching senderKeys data"}
+{"level":30,"time":"2024-08-02T09:07:42.409Z","msg":"SignalProtocolStore: Finished caching signedPreKeys data"}
+{"level":30,"time":"2024-08-02T09:07:42.412Z","msg":"ConversationController: starting initial fetch"}
+{"level":30,"time":"2024-08-02T09:07:42.414Z","msg":"ConversationController: done with initial fetch, got 0 conversations"}
+{"level":30,"time":"2024-08-02T09:07:42.415Z","msg":"WebAPI: starting registration"}
+{"level":30,"time":"2024-08-02T09:07:42.417Z","msg":"createAccount: Number is +[REDACTED]760, password has length: 22"}
+{"level":30,"time":"2024-08-02T09:07:42.417Z","msg":"createAccount: Erasing configuration"}
+{"level":30,"time":"2024-08-02T09:07:42.425Z","msg":"SignalProtocolStore: Finished caching identityKeys data"}
+{"level":30,"time":"2024-08-02T09:07:42.425Z","msg":"SignalProtocolStore: Finished caching kyberPreKeys data"}
+{"level":30,"time":"2024-08-02T09:07:42.425Z","msg":"SignalProtocolStore: Finished caching sessions data"}
+{"level":30,"time":"2024-08-02T09:07:42.425Z","msg":"SignalProtocolStore: Finished caching preKeys data"}
+{"level":30,"time":"2024-08-02T09:07:42.425Z","msg":"SignalProtocolStore: Finished caching senderKeys data"}
+{"level":30,"time":"2024-08-02T09:07:42.426Z","msg":"SignalProtocolStore: Finished caching signedPreKeys data"}
+{"level":30,"time":"2024-08-02T09:07:42.427Z","msg":"Sender certificate service: Clearing in-progress fetches and deleting cached certificates"}
+{"level":30,"time":"2024-08-02T09:07:42.433Z","msg":"generateLastRestortKyberKey(ACI): Saving new last resort prekey 1"}
+{"level":30,"time":"2024-08-02T09:07:42.437Z","msg":"generateLastRestortKyberKey(PNI): Saving new last resort prekey 2"}
+{"level":30,"time":"2024-08-02T09:07:42.441Z","msg":"AccountManager.generateSignedPreKey(ACI): Saving new signed prekey 1"}
+{"level":30,"time":"2024-08-02T09:07:42.445Z","msg":"AccountManager.generateSignedPreKey(PNI): Saving new signed prekey 2"}
+{"level":30,"time":"2024-08-02T09:07:42.454Z","msg":"PUT (WS) https://chat.signal.org/v1/devices/link"}
+{"level":50,"time":"2024-08-02T09:07:42.647Z","msg":"PUT (WS) https://chat.signal.org/v1/devices/link 409 Error"}
+{"level":30,"time":"2024-08-02T09:07:42.647Z","msg":"WebAPI: finishing registration"}
+{"level":50,"time":"2024-08-02T09:07:42.648Z","msg":"account.registerSecondDevice: got an error HTTPError: promiseAjax: error response; code: 409\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:90:951)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:90:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:90:696)\n    at async te ([REDACTED]/resources/app.asar/preload.bundle.js:90:6515)\n    at async [REDACTED]/resources/app.asar/preload.bundle.js:90:15822\n    at async st ([REDACTED]/resources/app.asar/preload.bundle.js:90:14222)\n    at async _V.createAccount ([REDACTED]/resources/app.asar/preload.bundle.js:91:353186)\n    at async [REDACTED]/resources/app.asar/preload.bundle.js:91:343075\n    at async run ([REDACTED]/resources/app.asar/preload.bundle.js:76:37812)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:90:867)\n    at te ([REDACTED]/resources/app.asar/preload.bundle.js:90:6521)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:90:15828\n    at st ([REDACTED]/resources/app.asar/preload.bundle.js:90:14228)\n    at async _V.createAccount ([REDACTED]/resources/app.asar/preload.bundle.js:91:353186)\n    at async [REDACTED]/resources/app.asar/preload.bundle.js:91:343075\n    at async run ([REDACTED]/resources/app.asar/preload.bundle.js:76:37812)\n    at async [REDACTED]/resources/app.asar/preload.bundle.js:76:37845\n    at async run ([REDACTED]/resources/app.asar/preload.bundle.js:22:30770)\nCaused by: undefined"}
+{"level":30,"time":"2024-08-02T09:07:42.973Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is focused; there is no notification data"}
+{"level":30,"time":"2024-08-02T09:07:44.309Z","msg":"background/shutdown"}
+{"level":40,"time":"2024-08-02T09:07:44.309Z","msg":"cancelInflightRequests/shutdown: Cancelling 0 requests"}
+{"level":40,"time":"2024-08-02T09:07:44.310Z","msg":"cancelInflightRequests/shutdown: Done"}
+{"level":30,"time":"2024-08-02T09:07:44.310Z","msg":"background/shutdown: shutting down messageReceiver"}
+{"level":30,"time":"2024-08-02T09:07:44.310Z","msg":"MessageReceiver.stopProcessing"}
+{"level":30,"time":"2024-08-02T09:07:44.310Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2024-08-02T09:07:44.310Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T09:07:44.310Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2024-08-02T09:07:44.310Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T09:07:44.310Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2024-08-02T09:07:44.310Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T09:07:44.310Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2024-08-02T09:07:44.310Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T09:07:44.310Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2024-08-02T09:07:44.310Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T09:07:44.310Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2024-08-02T09:07:44.310Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T09:07:44.310Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2024-08-02T09:07:44.310Z","msg":"Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T09:07:44.310Z","msg":"Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2024-08-02T09:07:44.310Z","msg":"background/shutdown: flushing conversations"}
+{"level":30,"time":"2024-08-02T09:07:44.310Z","msg":"Sleeper: shutting down, settling 0 in-progress sleep calls"}
+{"level":30,"time":"2024-08-02T09:07:44.310Z","msg":"Sleeper: sleep tasks settled"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"background/shutdown: shutting down queues"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"StartupQueue: Waiting for 0 tasks to drain"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"conversation job queue: shutdown: stop accepting new work and drain 0 promise queues"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"single proto job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"read sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"view sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"view once open sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"remove storage key job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"report spam job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"conversation job queue: shutdown: complete"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"single proto job queue: shutdown: complete"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"read sync job queue: shutdown: complete"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"view sync job queue: shutdown: complete"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"view once open sync job queue: shutdown: complete"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"remove storage key job queue: shutdown: complete"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"report spam job queue: shutdown: complete"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"background/shutdown: shutting down conversation queues"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"background/shutdown: all queues shutdown"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"background/shutdown: waiting for all batchers"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2024-08-02T09:07:44.311Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T09:07:44.312Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2024-08-02T09:07:44.312Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T09:07:44.312Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2024-08-02T09:07:44.312Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T09:07:44.312Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2024-08-02T09:07:44.312Z","msg":"Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2024-08-02T09:07:44.312Z","msg":"Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2024-08-02T09:07:44.312Z","msg":"waitBatcher#waitForAllWaitBatchers"}
+{"level":30,"time":"2024-08-02T09:07:44.312Z","msg":"background/shutdown: waiting for all attachment downloads to finish"}
+{"level":30,"time":"2024-08-02T09:07:44.312Z","msg":"AttachmentDownloadManager/stopping"}
+{"level":30,"time":"2024-08-02T09:07:44.312Z","msg":"AttachmentBackupManager/stopping"}
+{"level":30,"time":"2024-08-02T09:07:44.312Z","msg":"background/shutdown: closing the database"}
+{"level":30,"time":"2024-08-02T09:07:44.312Z","msg":"Client.shutdown"}
+{"level":30,"time":"2024-08-02T09:07:44.312Z","msg":"data.shutdown: shutdown requested. 0 jobs outstanding"}
+{"level":30,"time":"2024-08-02T09:07:44.342Z","msg":"NotificationService: clearing notification and updating"}
+{"level":30,"time":"2024-08-02T09:07:44.342Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is not focused; there is no notification data"}

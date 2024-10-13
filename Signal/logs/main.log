@@ -1,0 +1,261 @@
+{"level":30,"time":"2024-08-02T08:38:50.064Z","msg":"got fast localeOverride setting null"}
+{"level":30,"time":"2024-08-02T08:38:50.064Z","msg":"app.ready: hour cycle preference: UnknownPreference"}
+{"level":30,"time":"2024-08-02T08:38:50.065Z","msg":"app.ready: preferred system locales: en-US, en"}
+{"level":30,"time":"2024-08-02T08:38:50.065Z","msg":"locale: Supported locales: af-ZA, ar, az-AZ, bg-BG, bn-BD, bs-BA, ca, cs, da, de, el, en, es, et-EE, eu, fa-IR, fi, fr, ga-IE, gl-ES, gu-IN, he, hi-IN, hr-HR, hu, id, it, ja, ka-GE, kk-KZ, km-KH, kn-IN, ko, ky-KG, lt-LT, lv-LV, mk-MK, ml-IN, mr-IN, ms, my, nb, nl, pa-IN, pl, pt-BR, pt-PT, ro-RO, ru, sk-SK, sl-SI, sq-AL, sr, sv, sw, ta-IN, te-IN, th, tl-PH, tr, ug, uk-UA, ur, vi, yue, zh-CN, zh-HK, zh-Hant"}
+{"level":30,"time":"2024-08-02T08:38:50.065Z","msg":"locale: Preferred locales: en-US, en"}
+{"level":30,"time":"2024-08-02T08:38:50.065Z","msg":"locale: Locale Override: null"}
+{"level":30,"time":"2024-08-02T08:38:50.067Z","msg":"locale: Matched locale: en"}
+{"level":40,"time":"2024-08-02T08:38:50.109Z","msg":"intl.onWarn [@formatjs/intl] \"defaultRichTextElements\" was specified but \"message\" was not pre-compiled. \nPlease consider using \"@formatjs/cli\" to pre-compile your messages for performance.\nFor more details see https://formatjs.io/docs/getting-started/message-distribution"}
+{"level":30,"time":"2024-08-02T08:38:50.110Z","msg":"locale: Text info direction for en: ltr"}
+{"level":30,"time":"2024-08-02T08:38:50.112Z","msg":"getSystemTraySetting got value DoNotUseSystemTray"}
+{"level":30,"time":"2024-08-02T08:38:50.113Z","msg":"getSystemTraySetting returning DoNotUseSystemTray"}
+{"level":30,"time":"2024-08-02T08:38:50.114Z","msg":"app ready"}
+{"level":30,"time":"2024-08-02T08:38:50.114Z","msg":"starting version 7.14.0"}
+{"level":30,"time":"2024-08-02T08:38:50.114Z","msg":"media access status [object Undefined] [object Undefined]"}
+{"level":30,"time":"2024-08-02T08:38:50.116Z","msg":"got fast theme-setting value system"}
+{"level":30,"time":"2024-08-02T08:38:50.120Z","msg":"got fast theme-setting value system"}
+{"level":30,"time":"2024-08-02T08:38:50.120Z","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2024-08-02T08:38:50.121Z","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1920,\"height\":1011,\"minWidth\":300,\"minHeight\":200,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#3a76f0\",\"webPreferences\":{\"devTools\":false,\"spellcheck\":true,\"enableBlinkFeatures\":\"CSSPseudoDir,CSSLogical\",\"enablePreferredSizeMode\":true,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"sandbox\":false,\"contextIsolation\":true,\"preload\":\"[REDACTED]/preload.bundle.js\",\"backgroundThrottling\":true,\"disableBlinkFeatures\":\"Accelerated2dCanvas,AcceleratedSmallCanvases\"},\"icon\":\"[REDACTED]/images/signal-logo-desktop-linux.png\",\"x\":0,\"y\":69}"}
+{"level":30,"time":"2024-08-02T08:38:50.244Z","msg":"spellcheck: user locales: [\"en-US\",\"en\"]"}
+{"level":30,"time":"2024-08-02T08:38:50.244Z","msg":"spellcheck: available spellchecker languages: [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2024-08-02T08:38:50.244Z","msg":"spellcheck: setting languages to: [\"en-US\",\"en\"]"}
+{"level":30,"time":"2024-08-02T08:38:50.267Z","msg":"MainSQL: updateSchema:\n  Current user_version: 1070;\n  Most recent db schema: 1070;\n  SQLite version: 3.42.0;\n  SQLCipher version: 4.5.5 community;\n  (deprecated) schema_version: 472;\n"}
+{"level":30,"time":"2024-08-02T08:38:50.832Z","msg":"got fast theme-setting value system"}
+{"level":30,"time":"2024-08-02T08:38:51.635Z","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2024-08-02T08:38:51.647Z","msg":"System tray service: created"}
+{"level":30,"time":"2024-08-02T08:38:51.647Z","msg":"System tray service: updating main window. Previously, there was not a window, and now there is"}
+{"level":30,"time":"2024-08-02T08:38:51.647Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2024-08-02T08:38:51.647Z","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2024-08-02T08:38:51.649Z","msg":"main window is ready-to-show"}
+{"level":30,"time":"2024-08-02T08:38:51.649Z","msg":"showing main window"}
+{"level":30,"time":"2024-08-02T08:38:51.650Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2024-08-02T08:38:51.654Z","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2024-08-02T08:38:51.657Z","msg":"Finish ensuring permissions in 10ms"}
+{"level":30,"time":"2024-08-02T08:38:51.733Z","msg":"deleteAllBadges: deleted 7 files"}
+{"level":30,"time":"2024-08-02T08:38:51.749Z","msg":"MainSQL: removeKnownStickers: About to iterate through 0 stickers"}
+{"level":30,"time":"2024-08-02T08:38:51.749Z","msg":"MainSQL: removeKnownStickers: Done processing 0 stickers"}
+{"level":30,"time":"2024-08-02T08:38:51.846Z","msg":"deleteAllStickers: deleted 238 files"}
+{"level":30,"time":"2024-08-02T08:38:51.849Z","msg":"MainSQL: removeKnownDraftAttachments: About to iterate through 0 conversations"}
+{"level":30,"time":"2024-08-02T08:38:51.849Z","msg":"MainSQL: removeKnownDraftAttachments: Done processing 0 conversations"}
+{"level":30,"time":"2024-08-02T08:38:51.849Z","msg":"deleteAllDraftAttachments: deleted 0 files"}
+{"level":30,"time":"2024-08-02T08:38:51.868Z","msg":"cleanupOrphanedAttachments: found 206 attachments on disk"}
+{"level":30,"time":"2024-08-02T08:38:51.868Z","msg":"MainSQL: getKnownConversationAttachments: About to iterate through 0"}
+{"level":30,"time":"2024-08-02T08:38:51.869Z","msg":"MainSQL: getKnownConversationAttachments: Done processing"}
+{"level":30,"time":"2024-08-02T08:38:51.869Z","msg":"cleanupOrphanedAttachments: found 0 conversation attachments (0 missing), 206 remain"}
+{"level":30,"time":"2024-08-02T08:38:51.869Z","msg":"cleanupOrphanedAttachments: took 168ms"}
+{"level":30,"time":"2024-08-02T08:38:51.870Z","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2024-08-02T08:38:51.871Z","msg":"MainSQL: pageMessages(7b3c052c9e9286a7): Starting iteration through 0 messages"}
+{"level":30,"time":"2024-08-02T08:38:51.928Z","msg":"MainSQL: finishPageMessages(7b3c052c9e9286a7): reached the end after processing 0 messages"}
+{"level":30,"time":"2024-08-02T08:38:51.928Z","msg":"cleanupOrphanedAttachments: found 0 message attachments, (0 missing) 206 remain"}
+{"level":30,"time":"2024-08-02T08:38:51.934Z","msg":"Ensuring file permissions for 659 files"}
+{"level":50,"time":"2024-08-02T08:38:51.938Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonCookie'"}
+{"level":50,"time":"2024-08-02T08:38:51.939Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonLock'"}
+{"level":30,"time":"2024-08-02T08:38:51.986Z","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2024-08-02T08:38:51.996Z","msg":"Prevent display sleep service: allowing display sleep"}
+{"level":30,"time":"2024-08-02T08:38:51.996Z","msg":"Background throttling enabled because no call is active"}
+{"level":50,"time":"2024-08-02T08:38:52.015Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/02/[REDACTED]147'"}
+{"level":50,"time":"2024-08-02T08:38:52.015Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/00/[REDACTED]6c8'"}
+{"level":50,"time":"2024-08-02T08:38:52.015Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/03/[REDACTED]ecf'"}
+{"level":50,"time":"2024-08-02T08:38:52.015Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/03/[REDACTED]345'"}
+{"level":50,"time":"2024-08-02T08:38:52.016Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/03/[REDACTED]c9d'"}
+{"level":50,"time":"2024-08-02T08:38:52.016Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/06/[REDACTED]47a'"}
+{"level":50,"time":"2024-08-02T08:38:52.016Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/07/[REDACTED]964'"}
+{"level":50,"time":"2024-08-02T08:38:52.017Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/07/[REDACTED]f97'"}
+{"level":50,"time":"2024-08-02T08:38:52.017Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/0b/[REDACTED]a8f'"}
+{"level":50,"time":"2024-08-02T08:38:52.017Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/0b/[REDACTED]317'"}
+{"level":50,"time":"2024-08-02T08:38:52.018Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/0b/[REDACTED]44a'"}
+{"level":50,"time":"2024-08-02T08:38:52.018Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/08/[REDACTED]ae3'"}
+{"level":50,"time":"2024-08-02T08:38:52.018Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/08/[REDACTED]57d'"}
+{"level":50,"time":"2024-08-02T08:38:52.018Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/0d/[REDACTED]699'"}
+{"level":50,"time":"2024-08-02T08:38:52.018Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/0e/[REDACTED]06e'"}
+{"level":50,"time":"2024-08-02T08:38:52.018Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/10/[REDACTED]a6f'"}
+{"level":50,"time":"2024-08-02T08:38:52.019Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/10/[REDACTED]c76'"}
+{"level":50,"time":"2024-08-02T08:38:52.019Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/11/[REDACTED]970'"}
+{"level":50,"time":"2024-08-02T08:38:52.019Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/11/[REDACTED]a9a'"}
+{"level":50,"time":"2024-08-02T08:38:52.019Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/11/[REDACTED]2cb'"}
+{"level":50,"time":"2024-08-02T08:38:52.019Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/14/[REDACTED]ab8'"}
+{"level":50,"time":"2024-08-02T08:38:52.020Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/0f/[REDACTED]c94'"}
+{"level":50,"time":"2024-08-02T08:38:52.020Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/14/[REDACTED]064'"}
+{"level":50,"time":"2024-08-02T08:38:52.020Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/14/[REDACTED]084'"}
+{"level":50,"time":"2024-08-02T08:38:52.020Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/15/[REDACTED]ff7'"}
+{"level":50,"time":"2024-08-02T08:38:52.020Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/15/[REDACTED]067'"}
+{"level":50,"time":"2024-08-02T08:38:52.020Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/16/[REDACTED]fba'"}
+{"level":50,"time":"2024-08-02T08:38:52.020Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/18/[REDACTED]89c'"}
+{"level":50,"time":"2024-08-02T08:38:52.021Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/18/[REDACTED]cfc'"}
+{"level":50,"time":"2024-08-02T08:38:52.021Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/1b/[REDACTED]7cf'"}
+{"level":50,"time":"2024-08-02T08:38:52.021Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/1b/[REDACTED]673'"}
+{"level":50,"time":"2024-08-02T08:38:52.021Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/1e/[REDACTED]9a4'"}
+{"level":50,"time":"2024-08-02T08:38:52.021Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/20/[REDACTED]be3'"}
+{"level":50,"time":"2024-08-02T08:38:52.022Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/20/[REDACTED]7e6'"}
+{"level":50,"time":"2024-08-02T08:38:52.023Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/21/[REDACTED]2ef'"}
+{"level":50,"time":"2024-08-02T08:38:52.023Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/22/[REDACTED]dad'"}
+{"level":50,"time":"2024-08-02T08:38:52.023Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/27/[REDACTED]d27'"}
+{"level":50,"time":"2024-08-02T08:38:52.024Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/2d/[REDACTED]1e0'"}
+{"level":50,"time":"2024-08-02T08:38:52.024Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/2d/[REDACTED]f53'"}
+{"level":50,"time":"2024-08-02T08:38:52.024Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/2d/[REDACTED]0ac'"}
+{"level":50,"time":"2024-08-02T08:38:52.024Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/2e/[REDACTED]fa0'"}
+{"level":50,"time":"2024-08-02T08:38:52.024Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/2e/[REDACTED]fcb'"}
+{"level":50,"time":"2024-08-02T08:38:52.024Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/2e/[REDACTED]b42'"}
+{"level":50,"time":"2024-08-02T08:38:52.025Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/2f/[REDACTED]615'"}
+{"level":50,"time":"2024-08-02T08:38:52.025Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/31/[REDACTED]f08'"}
+{"level":50,"time":"2024-08-02T08:38:52.026Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/31/[REDACTED]842'"}
+{"level":50,"time":"2024-08-02T08:38:52.026Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/37/[REDACTED]adc'"}
+{"level":50,"time":"2024-08-02T08:38:52.026Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/attachments.noindex/32/[REDACTED]af5'"}
+{"level":30,"time":"2024-08-02T08:38:52.052Z","msg":"Finish ensuring permissions in 182ms"}
+{"level":30,"time":"2024-08-02T08:38:52.110Z","msg":"deleteAll: deleted 206 files"}
+{"level":30,"time":"2024-08-02T08:38:52.110Z","msg":"deleteOrphanedAttachments: took 241ms"}
+{"level":30,"time":"2024-08-02T08:40:16.172Z","msg":"MainSQL: slow query removeAll duration=70ms"}
+{"level":40,"time":"2024-08-02T08:40:16.175Z","msg":"MainSQL: Database log code=17: statement aborts at 13: [\n      SELECT *\n      FROM items\n      WHERE id = $id;] database schema has changed"}
+{"level":40,"time":"2024-08-02T08:40:16.178Z","msg":"MainSQL: Database log code=17: statement aborts at 11: [SELECT * FROM senderKeys] database schema has changed"}
+{"level":30,"time":"2024-08-02T08:40:24.477Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1920,\"height\":1011,\"x\":0,\"y\":69}"}
+{"level":30,"time":"2024-08-02T08:40:24.479Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2024-08-02T08:40:24.488Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2024-08-02T08:40:25.021Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":960,\"height\":1011,\"x\":0,\"y\":69}"}
+{"level":30,"time":"2024-08-02T08:40:25.022Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2024-08-02T08:40:25.029Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2024-08-02T08:44:39.768Z","msg":"before-quit event {\"readyForShutdown\":false,\"shouldQuit\":false,\"hasEventBeenPrevented\":false,\"windowCount\":1,\"mainWindowExists\":true,\"mainWindowIsFullScreen\":false}"}
+{"level":30,"time":"2024-08-02T08:44:39.923Z","msg":"System tray service: markShouldQuit"}
+{"level":30,"time":"2024-08-02T08:44:46.171Z","msg":"close event {\"readyForShutdown\":false,\"shouldQuit\":true}"}
+{"level":30,"time":"2024-08-02T08:44:46.178Z","msg":"maybeRequestCloseConfirmation: Checking to see if close confirmation is needed"}
+{"level":30,"time":"2024-08-02T08:44:46.691Z","msg":"maybeRequestCloseConfirmation: Response received"}
+{"level":30,"time":"2024-08-02T08:44:47.009Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2024-08-02T08:44:47.077Z","msg":"requestShutdown: Requesting close of mainWindow..."}
+{"level":30,"time":"2024-08-02T08:44:59.671Z","msg":"MainSQL: slow query close duration=8060ms"}
+{"level":30,"time":"2024-08-02T08:44:59.679Z","msg":"requestShutdown: Response received"}
+{"level":50,"time":"2024-08-02T08:45:01.545Z","msg":"Error occurred in handler for 'sql-channel': {}"}
+{"level":50,"time":"2024-08-02T08:45:06.332Z","msg":"Error occurred in handler for 'sql-channel': {}"}
+{"level":30,"time":"2024-08-02T08:45:08.445Z","msg":"before-quit event {\"readyForShutdown\":true,\"shouldQuit\":true,\"hasEventBeenPrevented\":false,\"windowCount\":1,\"mainWindowExists\":true,\"mainWindowIsFullScreen\":false}"}
+{"level":30,"time":"2024-08-02T08:45:08.445Z","msg":"System tray service: markShouldQuit"}
+{"level":30,"time":"2024-08-02T08:45:08.450Z","msg":"close event {\"readyForShutdown\":true,\"shouldQuit\":true}"}
+{"level":30,"time":"2024-08-02T08:45:09.174Z","msg":"main window closed event"}
+{"level":30,"time":"2024-08-02T08:45:09.220Z","msg":"System tray service: updating main window. Previously, there was a window, and now there is not"}
+{"level":30,"time":"2024-08-02T08:45:09.236Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2024-08-02T08:45:09.268Z","msg":"will-quit event {\"hasEventBeenPrevented\":false,\"windowCount\":0,\"mainWindowExists\":false}"}
+{"level":30,"time":"2024-08-02T08:45:09.403Z","msg":"quit event {\"hasEventBeenPrevented\":false,\"windowCount\":0,\"mainWindowExists\":false}"}
+{"level":30,"time":"2024-08-02T08:48:10.283Z","msg":"got fast localeOverride setting null"}
+{"level":30,"time":"2024-08-02T08:48:10.283Z","msg":"app.ready: hour cycle preference: UnknownPreference"}
+{"level":30,"time":"2024-08-02T08:48:10.284Z","msg":"app.ready: preferred system locales: en-US, en"}
+{"level":30,"time":"2024-08-02T08:48:10.284Z","msg":"locale: Supported locales: af-ZA, ar, az-AZ, bg-BG, bn-BD, bs-BA, ca, cs, da, de, el, en, es, et-EE, eu, fa-IR, fi, fr, ga-IE, gl-ES, gu-IN, he, hi-IN, hr-HR, hu, id, it, ja, ka-GE, kk-KZ, km-KH, kn-IN, ko, ky-KG, lt-LT, lv-LV, mk-MK, ml-IN, mr-IN, ms, my, nb, nl, pa-IN, pl, pt-BR, pt-PT, ro-RO, ru, sk-SK, sl-SI, sq-AL, sr, sv, sw, ta-IN, te-IN, th, tl-PH, tr, ug, uk-UA, ur, vi, yue, zh-CN, zh-HK, zh-Hant"}
+{"level":30,"time":"2024-08-02T08:48:10.284Z","msg":"locale: Preferred locales: en-US, en"}
+{"level":30,"time":"2024-08-02T08:48:10.284Z","msg":"locale: Locale Override: null"}
+{"level":30,"time":"2024-08-02T08:48:10.286Z","msg":"locale: Matched locale: en"}
+{"level":40,"time":"2024-08-02T08:48:10.325Z","msg":"intl.onWarn [@formatjs/intl] \"defaultRichTextElements\" was specified but \"message\" was not pre-compiled. \nPlease consider using \"@formatjs/cli\" to pre-compile your messages for performance.\nFor more details see https://formatjs.io/docs/getting-started/message-distribution"}
+{"level":30,"time":"2024-08-02T08:48:10.325Z","msg":"locale: Text info direction for en: ltr"}
+{"level":30,"time":"2024-08-02T08:48:10.327Z","msg":"getSystemTraySetting got value DoNotUseSystemTray"}
+{"level":30,"time":"2024-08-02T08:48:10.328Z","msg":"getSystemTraySetting returning DoNotUseSystemTray"}
+{"level":30,"time":"2024-08-02T08:48:10.329Z","msg":"app ready"}
+{"level":30,"time":"2024-08-02T08:48:10.329Z","msg":"starting version 7.14.0"}
+{"level":30,"time":"2024-08-02T08:48:10.329Z","msg":"media access status [object Undefined] [object Undefined]"}
+{"level":30,"time":"2024-08-02T08:48:10.331Z","msg":"got fast theme-setting value system"}
+{"level":30,"time":"2024-08-02T08:48:10.334Z","msg":"got fast theme-setting value system"}
+{"level":30,"time":"2024-08-02T08:48:10.334Z","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2024-08-02T08:48:10.335Z","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":960,\"height\":1011,\"minWidth\":300,\"minHeight\":200,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#3a76f0\",\"webPreferences\":{\"devTools\":false,\"spellcheck\":true,\"enableBlinkFeatures\":\"CSSPseudoDir,CSSLogical\",\"enablePreferredSizeMode\":true,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"sandbox\":false,\"contextIsolation\":true,\"preload\":\"[REDACTED]/preload.bundle.js\",\"backgroundThrottling\":true,\"disableBlinkFeatures\":\"Accelerated2dCanvas,AcceleratedSmallCanvases\"},\"icon\":\"[REDACTED]/images/signal-logo-desktop-linux.png\",\"x\":0,\"y\":69}"}
+{"level":30,"time":"2024-08-02T08:48:10.456Z","msg":"spellcheck: user locales: [\"en-US\",\"en\"]"}
+{"level":30,"time":"2024-08-02T08:48:10.456Z","msg":"spellcheck: available spellchecker languages: [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2024-08-02T08:48:10.456Z","msg":"spellcheck: setting languages to: [\"en-US\",\"en\"]"}
+{"level":30,"time":"2024-08-02T08:48:10.485Z","msg":"MainSQL: updateSchema:\n  Current user_version: 1070;\n  Most recent db schema: 1070;\n  SQLite version: 3.42.0;\n  SQLCipher version: 4.5.5 community;\n  (deprecated) schema_version: 474;\n"}
+{"level":30,"time":"2024-08-02T08:48:11.036Z","msg":"got fast theme-setting value system"}
+{"level":30,"time":"2024-08-02T08:48:11.843Z","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2024-08-02T08:48:11.844Z","msg":"main window is ready-to-show"}
+{"level":30,"time":"2024-08-02T08:48:11.844Z","msg":"showing main window"}
+{"level":30,"time":"2024-08-02T08:48:11.856Z","msg":"System tray service: created"}
+{"level":30,"time":"2024-08-02T08:48:11.856Z","msg":"System tray service: updating main window. Previously, there was not a window, and now there is"}
+{"level":30,"time":"2024-08-02T08:48:11.856Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2024-08-02T08:48:11.857Z","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2024-08-02T08:48:11.859Z","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2024-08-02T08:48:11.860Z","msg":"Finish ensuring permissions in 3ms"}
+{"level":30,"time":"2024-08-02T08:48:12.082Z","msg":"deleteAllBadges: deleted 0 files"}
+{"level":30,"time":"2024-08-02T08:48:12.094Z","msg":"MainSQL: removeKnownStickers: About to iterate through 0 stickers"}
+{"level":30,"time":"2024-08-02T08:48:12.094Z","msg":"MainSQL: removeKnownStickers: Done processing 0 stickers"}
+{"level":30,"time":"2024-08-02T08:48:12.095Z","msg":"deleteAllStickers: deleted 0 files"}
+{"level":30,"time":"2024-08-02T08:48:12.098Z","msg":"MainSQL: removeKnownDraftAttachments: About to iterate through 0 conversations"}
+{"level":30,"time":"2024-08-02T08:48:12.098Z","msg":"MainSQL: removeKnownDraftAttachments: Done processing 0 conversations"}
+{"level":30,"time":"2024-08-02T08:48:12.098Z","msg":"deleteAllDraftAttachments: deleted 0 files"}
+{"level":30,"time":"2024-08-02T08:48:12.110Z","msg":"cleanupOrphanedAttachments: found 0 attachments on disk"}
+{"level":30,"time":"2024-08-02T08:48:12.111Z","msg":"MainSQL: getKnownConversationAttachments: About to iterate through 0"}
+{"level":30,"time":"2024-08-02T08:48:12.111Z","msg":"MainSQL: getKnownConversationAttachments: Done processing"}
+{"level":30,"time":"2024-08-02T08:48:12.111Z","msg":"cleanupOrphanedAttachments: found 0 conversation attachments (0 missing), 0 remain"}
+{"level":30,"time":"2024-08-02T08:48:12.112Z","msg":"cleanupOrphanedAttachments: took 62ms"}
+{"level":30,"time":"2024-08-02T08:48:12.113Z","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2024-08-02T08:48:12.114Z","msg":"MainSQL: pageMessages(8618729dce42dbbc): Starting iteration through 0 messages"}
+{"level":30,"time":"2024-08-02T08:48:12.145Z","msg":"Ensuring file permissions for 454 files"}
+{"level":50,"time":"2024-08-02T08:48:12.148Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonCookie'"}
+{"level":50,"time":"2024-08-02T08:48:12.149Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonLock'"}
+{"level":30,"time":"2024-08-02T08:48:12.166Z","msg":"MainSQL: finishPageMessages(8618729dce42dbbc): reached the end after processing 0 messages"}
+{"level":30,"time":"2024-08-02T08:48:12.166Z","msg":"cleanupOrphanedAttachments: found 0 message attachments, (0 missing) 0 remain"}
+{"level":30,"time":"2024-08-02T08:48:12.167Z","msg":"deleteAll: deleted 0 files"}
+{"level":30,"time":"2024-08-02T08:48:12.167Z","msg":"deleteOrphanedAttachments: took 56ms"}
+{"level":30,"time":"2024-08-02T08:48:12.172Z","msg":"Finish ensuring permissions in 59ms"}
+{"level":30,"time":"2024-08-02T08:48:12.185Z","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2024-08-02T08:48:12.190Z","msg":"Prevent display sleep service: allowing display sleep"}
+{"level":30,"time":"2024-08-02T08:48:12.190Z","msg":"Background throttling enabled because no call is active"}
+{"level":30,"time":"2024-08-02T08:52:28.222Z","msg":"close event {\"readyForShutdown\":false,\"shouldQuit\":false}"}
+{"level":30,"time":"2024-08-02T08:52:28.222Z","msg":"maybeRequestCloseConfirmation: Checking to see if close confirmation is needed"}
+{"level":30,"time":"2024-08-02T08:52:28.224Z","msg":"maybeRequestCloseConfirmation: Response received"}
+{"level":30,"time":"2024-08-02T08:52:28.225Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2024-08-02T08:52:28.225Z","msg":"requestShutdown: Requesting close of mainWindow..."}
+{"level":30,"time":"2024-08-02T08:52:28.258Z","msg":"requestShutdown: Response received"}
+{"level":30,"time":"2024-08-02T08:52:28.268Z","msg":"before-quit event {\"readyForShutdown\":true,\"shouldQuit\":false,\"hasEventBeenPrevented\":false,\"windowCount\":1,\"mainWindowExists\":true,\"mainWindowIsFullScreen\":false}"}
+{"level":30,"time":"2024-08-02T08:52:28.268Z","msg":"System tray service: markShouldQuit"}
+{"level":30,"time":"2024-08-02T08:52:28.269Z","msg":"close event {\"readyForShutdown\":true,\"shouldQuit\":true}"}
+{"level":30,"time":"2024-08-02T08:52:28.271Z","msg":"main window closed event"}
+{"level":30,"time":"2024-08-02T08:52:28.271Z","msg":"System tray service: updating main window. Previously, there was a window, and now there is not"}
+{"level":30,"time":"2024-08-02T08:52:28.271Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2024-08-02T08:52:28.271Z","msg":"will-quit event {\"hasEventBeenPrevented\":false,\"windowCount\":0,\"mainWindowExists\":false}"}
+{"level":30,"time":"2024-08-02T08:52:28.272Z","msg":"quit event {\"hasEventBeenPrevented\":false,\"windowCount\":0,\"mainWindowExists\":false}"}
+{"level":30,"time":"2024-08-02T09:07:20.043Z","msg":"got fast localeOverride setting null"}
+{"level":30,"time":"2024-08-02T09:07:20.044Z","msg":"app.ready: hour cycle preference: UnknownPreference"}
+{"level":30,"time":"2024-08-02T09:07:20.044Z","msg":"app.ready: preferred system locales: en-US, en"}
+{"level":30,"time":"2024-08-02T09:07:20.045Z","msg":"locale: Supported locales: af-ZA, ar, az-AZ, bg-BG, bn-BD, bs-BA, ca, cs, da, de, el, en, es, et-EE, eu, fa-IR, fi, fr, ga-IE, gl-ES, gu-IN, he, hi-IN, hr-HR, hu, id, it, ja, ka-GE, kk-KZ, km-KH, kn-IN, ko, ky-KG, lt-LT, lv-LV, mk-MK, ml-IN, mr-IN, ms, my, nb, nl, pa-IN, pl, pt-BR, pt-PT, ro-RO, ru, sk-SK, sl-SI, sq-AL, sr, sv, sw, ta-IN, te-IN, th, tl-PH, tr, ug, uk-UA, ur, vi, yue, zh-CN, zh-HK, zh-Hant"}
+{"level":30,"time":"2024-08-02T09:07:20.045Z","msg":"locale: Preferred locales: en-US, en"}
+{"level":30,"time":"2024-08-02T09:07:20.045Z","msg":"locale: Locale Override: null"}
+{"level":30,"time":"2024-08-02T09:07:20.047Z","msg":"locale: Matched locale: en"}
+{"level":40,"time":"2024-08-02T09:07:20.088Z","msg":"intl.onWarn [@formatjs/intl] \"defaultRichTextElements\" was specified but \"message\" was not pre-compiled. \nPlease consider using \"@formatjs/cli\" to pre-compile your messages for performance.\nFor more details see https://formatjs.io/docs/getting-started/message-distribution"}
+{"level":30,"time":"2024-08-02T09:07:20.089Z","msg":"locale: Text info direction for en: ltr"}
+{"level":30,"time":"2024-08-02T09:07:20.089Z","msg":"getSystemTraySetting got value DoNotUseSystemTray"}
+{"level":30,"time":"2024-08-02T09:07:20.089Z","msg":"getSystemTraySetting returning DoNotUseSystemTray"}
+{"level":30,"time":"2024-08-02T09:07:20.090Z","msg":"app ready"}
+{"level":30,"time":"2024-08-02T09:07:20.091Z","msg":"starting version 7.14.0"}
+{"level":30,"time":"2024-08-02T09:07:20.091Z","msg":"media access status [object Undefined] [object Undefined]"}
+{"level":30,"time":"2024-08-02T09:07:20.094Z","msg":"got fast theme-setting value system"}
+{"level":30,"time":"2024-08-02T09:07:20.097Z","msg":"got fast theme-setting value system"}
+{"level":30,"time":"2024-08-02T09:07:20.097Z","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2024-08-02T09:07:20.098Z","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":960,\"height\":1011,\"minWidth\":300,\"minHeight\":200,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#3a76f0\",\"webPreferences\":{\"devTools\":false,\"spellcheck\":true,\"enableBlinkFeatures\":\"CSSPseudoDir,CSSLogical\",\"enablePreferredSizeMode\":true,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"sandbox\":false,\"contextIsolation\":true,\"preload\":\"[REDACTED]/preload.bundle.js\",\"backgroundThrottling\":true,\"disableBlinkFeatures\":\"Accelerated2dCanvas,AcceleratedSmallCanvases\"},\"icon\":\"[REDACTED]/images/signal-logo-desktop-linux.png\",\"x\":0,\"y\":69}"}
+{"level":30,"time":"2024-08-02T09:07:20.215Z","msg":"spellcheck: user locales: [\"en-US\",\"en\"]"}
+{"level":30,"time":"2024-08-02T09:07:20.215Z","msg":"spellcheck: available spellchecker languages: [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2024-08-02T09:07:20.215Z","msg":"spellcheck: setting languages to: [\"en-US\",\"en\"]"}
+{"level":30,"time":"2024-08-02T09:07:20.222Z","msg":"MainSQL: updateSchema:\n  Current user_version: 1070;\n  Most recent db schema: 1070;\n  SQLite version: 3.42.0;\n  SQLCipher version: 4.5.5 community;\n  (deprecated) schema_version: 474;\n"}
+{"level":30,"time":"2024-08-02T09:07:20.754Z","msg":"got fast theme-setting value system"}
+{"level":30,"time":"2024-08-02T09:07:21.552Z","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2024-08-02T09:07:21.564Z","msg":"System tray service: created"}
+{"level":30,"time":"2024-08-02T09:07:21.564Z","msg":"System tray service: updating main window. Previously, there was not a window, and now there is"}
+{"level":30,"time":"2024-08-02T09:07:21.564Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2024-08-02T09:07:21.564Z","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2024-08-02T09:07:21.566Z","msg":"main window is ready-to-show"}
+{"level":30,"time":"2024-08-02T09:07:21.566Z","msg":"showing main window"}
+{"level":30,"time":"2024-08-02T09:07:21.568Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2024-08-02T09:07:21.572Z","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2024-08-02T09:07:21.574Z","msg":"Finish ensuring permissions in 9ms"}
+{"level":30,"time":"2024-08-02T09:07:21.670Z","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2024-08-02T09:07:21.676Z","msg":"Prevent display sleep service: allowing display sleep"}
+{"level":30,"time":"2024-08-02T09:07:21.677Z","msg":"Background throttling enabled because no call is active"}
+{"level":30,"time":"2024-08-02T09:07:23.194Z","msg":"Updating BrowserWindow config: %s {\"maximized\":true,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1920,\"height\":1011,\"x\":0,\"y\":69}"}
+{"level":30,"time":"2024-08-02T09:07:23.196Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2024-08-02T09:07:23.204Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2024-08-02T09:07:42.404Z","msg":"MainSQL: slow query removeAll duration=42ms"}
+{"level":40,"time":"2024-08-02T09:07:42.406Z","msg":"MainSQL: Database log code=17: statement aborts at 13: [\n      SELECT *\n      FROM items\n      WHERE id = $id;] database schema has changed"}
+{"level":40,"time":"2024-08-02T09:07:42.408Z","msg":"MainSQL: Database log code=17: statement aborts at 11: [SELECT * FROM senderKeys] database schema has changed"}
+{"level":30,"time":"2024-08-02T09:07:44.303Z","msg":"close event {\"readyForShutdown\":false,\"shouldQuit\":false}"}
+{"level":30,"time":"2024-08-02T09:07:44.303Z","msg":"maybeRequestCloseConfirmation: Checking to see if close confirmation is needed"}
+{"level":30,"time":"2024-08-02T09:07:44.305Z","msg":"maybeRequestCloseConfirmation: Response received"}
+{"level":30,"time":"2024-08-02T09:07:44.306Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2024-08-02T09:07:44.306Z","msg":"requestShutdown: Requesting close of mainWindow..."}
+{"level":30,"time":"2024-08-02T09:07:44.327Z","msg":"requestShutdown: Response received"}
+{"level":30,"time":"2024-08-02T09:07:44.340Z","msg":"before-quit event {\"readyForShutdown\":true,\"shouldQuit\":false,\"hasEventBeenPrevented\":false,\"windowCount\":1,\"mainWindowExists\":true,\"mainWindowIsFullScreen\":false}"}
+{"level":30,"time":"2024-08-02T09:07:44.340Z","msg":"System tray service: markShouldQuit"}
+{"level":30,"time":"2024-08-02T09:07:44.341Z","msg":"close event {\"readyForShutdown\":true,\"shouldQuit\":true}"}
+{"level":30,"time":"2024-08-02T09:07:44.344Z","msg":"main window closed event"}
+{"level":30,"time":"2024-08-02T09:07:44.344Z","msg":"System tray service: updating main window. Previously, there was a window, and now there is not"}
+{"level":30,"time":"2024-08-02T09:07:44.345Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2024-08-02T09:07:44.345Z","msg":"will-quit event {\"hasEventBeenPrevented\":false,\"windowCount\":0,\"mainWindowExists\":false}"}
+{"level":30,"time":"2024-08-02T09:07:44.346Z","msg":"quit event {\"hasEventBeenPrevented\":false,\"windowCount\":0,\"mainWindowExists\":false}"}

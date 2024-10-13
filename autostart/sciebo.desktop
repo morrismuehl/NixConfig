@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sciebo
+GenericName=File Synchronizer
+Exec=/home/morris/.cache/appimage-run/2b8354e5c2d2290c733ecad2cc959cb2414c02eca244bbca94b8f966c7ad4913/usr/bin/sciebo
+Terminal=false
+Icon=sciebo
+Categories=Network
+Type=Application
+StartupNotify=false
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Delay=10

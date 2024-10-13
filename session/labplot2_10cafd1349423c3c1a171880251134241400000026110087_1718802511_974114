@@ -1,0 +1,31 @@
+[Number]
+NumberOfWindows=1
+
+[WindowProperties1]
+2 screens: XPosition=0
+2 screens: YPosition=0
+ClassName=MainWin
+HDMI-1 eDP-1=eDP-1
+ObjectName=MainWindow#1
+State=AAAA/wAAAAD9AAAAAgAAAAAAAAEIAAADl/wCAAAAAfsAAAAeAHAAcgBvAGoAZQBjAHQAZQB4AHAAbABvAHIAZQByAQAAAEUAAAOXAAAAAAAAAAAAAAABAAAAagAAA5f8AgAAAAH7AAAALABhAHMAcABlAGMAdABfAHAAcgBvAHAAZQByAHQAaQBlAHMAXwBkAG8AYwBrAQAAAEUAAAOXAAAAAAAAAAAAAAYMAAADlwAAAAQAAAAEAAAACAAAAAj8AAAAAgAAAAAAAAABAAAALABjAGEAcgB0AGUAcwBpAGEAbgBfAHAAbABvAHQAXwB0AG8AbwBsAGIAYQByAgAAAAD/////AAAAAAAAAAAAAAACAAAABgAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAAYAG0AYQBpAG4AXwB0AG8AbwBsAGIAYQByAQAAARL/////AAAAAAAAAAAAAAAiAHcAbwByAGsAcwBoAGUAZQB0AF8AdABvAG8AbABiAGEAcgAAAAKI/////wAAAAAAAAAAAAAAJABkAGEAdABhAHAAaQBjAGsAZQByAF8AdABvAG8AbABiAGEAcgAAAAKW/////wAAAAAAAAAAAAAAJgBzAHAAcgBlAGEAZABzAGgAZQBlAHQAXwB0AG8AbwBsAGIAYQByAAAAAqT/////AAAAAAAAAAAAAAAgAG4AbwB0AGUAYgBvAG8AawBfAHQAbwBvAGwAYgBhAHIAAAACsv////8AAAAAAAAAAA==
+
+[WindowProperties1][Toolbar cartesian_plot_toolbar]
+ToolButtonStyle=IconOnly
+
+[WindowProperties1][Toolbar datapicker_toolbar]
+ToolButtonStyle=IconOnly
+
+[WindowProperties1][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[WindowProperties1][Toolbar main_toolbar]
+ToolButtonStyle=IconOnly
+
+[WindowProperties1][Toolbar notebook_toolbar]
+ToolButtonStyle=IconOnly
+
+[WindowProperties1][Toolbar spreadsheet_toolbar]
+ToolButtonStyle=IconOnly
+
+[WindowProperties1][Toolbar worksheet_toolbar]
+ToolButtonStyle=IconOnly

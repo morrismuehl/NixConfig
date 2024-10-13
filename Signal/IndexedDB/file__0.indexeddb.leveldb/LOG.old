@@ -1,0 +1,7 @@
+2024/08/02-10:38:51.662 1698 Reusing MANIFEST /home/morris/.config/Signal/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2024/08/02-10:38:51.662 1698 Recovering log #4
+2024/08/02-10:38:51.663 1698 Reusing old log /home/morris/.config/Signal/IndexedDB/file__0.indexeddb.leveldb/000004.log 
+2024/08/02-10:38:51.672 1698 Level-0 table #8: started
+2024/08/02-10:38:51.674 1698 Level-0 table #8: 471 bytes OK
+2024/08/02-10:38:51.677 1698 Delete type=0 #4
+2024/08/02-10:38:51.678 1698 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
