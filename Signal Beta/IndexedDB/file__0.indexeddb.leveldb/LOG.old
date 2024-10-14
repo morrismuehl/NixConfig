@@ -1,6 +1,0 @@
-2024/08/21-09:46:38.546 3b45 Creating DB /home/morris/.config/Signal Beta/IndexedDB/file__0.indexeddb.leveldb since it was missing.
-2024/08/21-09:46:38.551 3b45 Reusing MANIFEST /home/morris/.config/Signal Beta/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2024/08/21-09:46:38.558 3b44 Level-0 table #5: started
-2024/08/21-09:46:38.559 3b44 Level-0 table #5: 487 bytes OK
-2024/08/21-09:46:38.561 3b44 Delete type=0 #3
-2024/08/21-09:46:38.561 3b44 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
