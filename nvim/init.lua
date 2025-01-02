@@ -27,7 +27,7 @@ cmp.setup({
         -- REQUIRED - you must specify a snippet engine
         expand = function(args)
             require('luasnip').lsp_expand(args.body) -- For `luasnip` users.
-        end,
+       end,
     },
     experimental = {
         view_entries = true,
@@ -87,6 +87,8 @@ cmp.setup.cmdline(':', {
     matching = { disallow_symbol_nonprefix_matching = false }
 })
 
+--Set up Null-LS for code formatting (lsp alone does not seem to work for python)
+
 -- Set up lspconfig.
 local capabilities = require('cmp_nvim_lsp').default_capabilities(vim.lsp.protocol.make_client_capabilities())
 -- Replace <YOUR_LSP_SERVER> with each lsp server you've enabled.
@@ -99,7 +101,7 @@ vim.g.loaded = 1
 vim.g.loaded_netrwPlugin = 1
 require("luasnip.loaders.from_lua").load({ paths = "~/.config/nvim/snippets/" })
 
-require("nvim-tree").setup()
+-- require("nvim-tree").setup()
 require("leap").set_default_keymaps()
 
 -- --TexLab LSP
@@ -191,22 +193,8 @@ require 'lspconfig'.pylsp.setup {
     end,
 }
 
--- require 'lspconfig'.marksman.setup{
---
--- }
-
-require('lualine').setup()
---require('settings.vim')
 vim.cmd('source $HOME/.config/nvim/settings.vim')
+-- vim.cmd("colorscheme adwaita")
 require('mappings')
 require('markdown')
---
 require('lsdynamicnode')
--- vim.api.nvim_set_option("background", "light")
--- vim.cmd("colorscheme onehalf-lush")
--- vim.cmd("colorscheme catppuccin-mocha")
--- vim.cmd("colorscheme adwaita")
--- vim.cmd("colorscheme modus_operandi")
--- vim.cmd('colorscheme github_light')
--- vim.cmd('colorscheme gαithub_light')
--- vim.cmd [[colorscheme ayu-mirage]]

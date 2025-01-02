@@ -35,9 +35,9 @@ let
             beamertheme-metropolis;
    });
 
-   # home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/";
+   # home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/master";
    # home-manager = {
-   #      url = "github:nix-community/home-manager";
+   #      url = "github:nix-community/home-manager/master";
    #      inputs.nixpkgs.follows = "nixpkgs";
    # };
   in
@@ -50,7 +50,7 @@ let
     ];
     home-manager.users.morris= {
       /* The home.stateVersion option does not have a default and must be set */
-      home.stateVersion = "24.05";
+      home.stateVersion = "24.11";
       home.enableNixpkgsReleaseCheck = true;
       /* Here goes the rest of your home-manager config, e.g. home.packages = [ pkgs.foo ]; */
 
@@ -276,7 +276,7 @@ let
     gnome-pomodoro
     gnome-solanum
     gnomeExtensions.gsconnect
-    gnome.networkmanager-openconnect
+    networkmanager-openconnect
     gnome.gvfs
     gdb
     openconnect
@@ -296,7 +296,7 @@ let
     odt2txt # For preview of LibreOffice Documents
     zathura # PDF Viewer
     avogadro2
-    labplot # KDE Origin Clone
+    # labplot # KDE Origin Clone
     gnuplot
     eplot
     zotero # Citation Management
@@ -313,7 +313,7 @@ let
     pdftk
     nicotine-plus
     syncthing
-    signal-desktop-beta
+    signal-desktop
     pango
     ranger
     vifm # It's supposed to be faster than ranger?
@@ -337,7 +337,8 @@ let
     bat
     # steam
     discord
-    zoom
+    bitwarden-desktop
+    zoom-us
     grc
     fishPlugins.fzf-fish
     fishPlugins.autopair
@@ -345,7 +346,6 @@ let
     sshfs
     # tlp # I think this is not needed when power saving is activated
     papirus-icon-theme
-    luna-icons
     kitty
     mpv
     yt-dlp # but this one is much superior
@@ -357,6 +357,7 @@ let
     # Programming Languages and Such
     gcc
     lua
+    black
     luajit
     luajitPackages.luarocks
     lua-language-server
@@ -383,7 +384,9 @@ let
         numpy
         pandas
         matplotlib
+        jupyterlab
         scipy
+        # morse
         # pysmiles
         networkx
         dbus-python
@@ -414,7 +417,7 @@ let
   fonts.packages = with pkgs; [
     noto-fonts
     noto-fonts-emoji
-    nerdfonts
+    # nerdfonts
     liberation_ttf
     arkpandora_ttf
     aileron
@@ -442,8 +445,8 @@ let
     programs.firefox.nativeMessagingHosts.gsconnect = true;
     programs.fish.enable = true;
     programs.steam = {
-  	enable = true;
-  	remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
+  	enable = true; 
+   remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
   	dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
 	};
   # programs.gnupg.agent = {
@@ -480,7 +483,7 @@ let
     enable = true;
     package = pkgs.sambaFull;
     openFirewall = true;
-    shares = {
+    settings = {
         public = {
             path = "/mnt/share/muehlpointner";
             browseable = "yes";
@@ -578,7 +581,4 @@ let
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "23.11"; # Did you read the comment?
-
 }
-
-

@@ -22,13 +22,13 @@ map("n", "<space>i", "<cmd>VimtexTocToggle<CR>", { desc = "Index" })
 map("n", "<space>x", "<cmd>VimtexClean<CR>", { desc = "Kill Aux" })
 map("n", "<space>l", "<cmd>VimtexErrors<CR>", { desc = "Log" })
 map("n", "<space>w", "<cmd>w<CR>", { desc = "write" })
+map("n", "<space>t", MiniTrailspace.trim, { desc = "Trail Whitespace" })
 map("n", "<space><space>d", "<cmd>bd<CR>", { desc = "write" })
 map("n", "<space>q", "<cmd>wqa<CR>", { desc = "quit" })
-map("n", "<space>e", "<cmd>NvimTreeToggle<CR>", { desc = "Explorer" })
+map("n", "<space>e", "<cmd>lua MiniFiles.open()<CR>", { desc = "Explorer" })
 map("n", "<space>u", "<cmd>UndotreeToggle<CR>", { desc = "Undo Tree" })
 map("n", "<space>f", "<cmd>Telescope find_files<CR>", { desc = "Telescope ff" })
 map({ "n", "v" }, "<space>g", "<cmd>!gnuplot %:p<CR>", { desc = "GnuPlot", silent = true })
-map("n", "<leader>m", "<cmd>lua require('nabla').popup()<CR>", { desc = "Preview" })
 vim.keymap.set(
   "n",
   "<leader>rp",
